@@ -1,0 +1,110 @@
+{
+  "id": "cultivation",
+  "name": "Cultivation",
+  "description": "Ranks, sects, sacred items and a climb to power in a harsh world.",
+  "settingFields": [
+    {
+      "key": "rank_ladder",
+      "label": "Rank ladder",
+      "type": "ladder",
+      "section": "Cultivation world",
+      "required": true,
+      "hint": "Lowest rank first. Characters pick their rank from this list.",
+      "default": [
+        { "name": "Mortal", "stages": [] },
+        { "name": "Qi Refining", "stages": ["Early", "Middle", "Late", "Peak"] },
+        { "name": "Foundation Establishment", "stages": ["Early", "Middle", "Late", "Peak"] },
+        { "name": "Core Formation", "stages": ["Early", "Middle", "Late", "Peak"] },
+        { "name": "Nascent Soul", "stages": ["Early", "Middle", "Late", "Peak"] },
+        { "name": "Spirit Severing", "stages": ["Early", "Middle", "Late", "Peak"] },
+        { "name": "Dao Seeking", "stages": ["Early", "Middle", "Late", "Peak"] },
+        { "name": "Immortal Ascension", "stages": [] }
+      ]
+    },
+    {
+      "key": "world_cruelty",
+      "label": "World cruelty",
+      "type": "scale",
+      "section": "Cultivation world",
+      "min": 1,
+      "max": 5,
+      "default": 3,
+      "minLabel": "Gentle",
+      "maxLabel": "Merciless"
+    },
+    {
+      "key": "character_mortality",
+      "label": "Character mortality",
+      "type": "choice",
+      "section": "Cultivation world",
+      "options": ["Rarely", "Sometimes", "Often"],
+      "default": "Sometimes",
+      "required": true,
+      "hint": "How easily named characters die."
+    },
+    {
+      "key": "sects_and_factions",
+      "label": "Major sects and factions",
+      "type": "list",
+      "section": "Cultivation world",
+      "hint": "One per line, e.g. Azure Cloud Sect: a sword sect that guards the eastern pass.",
+      "default": [
+        "Azure Cloud Sect: a proud sword sect on the highest peak, guarding the eastern pass.",
+        "Blood Lotus Valley: a demonic sect that trades in forbidden techniques.",
+        "The Lin Clan: an old family whose fortunes are fading."
+      ]
+    },
+    {
+      "key": "main_character_difficulties",
+      "label": "Difficulties faced by the main character",
+      "type": "longtext",
+      "section": "Cultivation world",
+      "default": "Born with crippled meridians into a fading clan, the main character is mocked by peers, owed nothing by the sects, and hunted by an enemy who wants a secret they do not yet know they carry."
+    },
+    {
+      "key": "power_growth",
+      "label": "Speed of power growth",
+      "type": "choice",
+      "section": "Cultivation world",
+      "options": ["Slow", "Steady", "Fast"],
+      "default": "Steady",
+      "required": true
+    }
+  ],
+  "characterFields": [
+    { "key": "cultivation_rank", "label": "Cultivation rank", "type": "rank", "section": "Cultivation" },
+    { "key": "sect", "label": "Sect or affiliation", "type": "text", "section": "Cultivation" },
+    {
+      "key": "spiritual_root",
+      "label": "Spiritual root or element",
+      "type": "choice",
+      "section": "Cultivation",
+      "options": ["Metal", "Wood", "Water", "Fire", "Earth", "Lightning", "Wind", "Ice", "Mixed", "None"]
+    },
+    {
+      "key": "special_ability",
+      "label": "Special ability",
+      "type": "longtext",
+      "section": "Cultivation",
+      "placeholder": "What sets this character apart"
+    },
+    {
+      "key": "sacred_items",
+      "label": "Sacred items",
+      "type": "list",
+      "section": "Cultivation",
+      "hint": "One per line."
+    },
+    { "key": "techniques", "label": "Techniques", "type": "list", "section": "Cultivation", "hint": "One per line." },
+    { "key": "inventory", "label": "Inventory", "type": "list", "section": "Cultivation", "hint": "One per line." }
+  ],
+  "settingDefaults": { "tone": ["Hot-blooded"] },
+  "rules": { "mainCharacterRequired": ["special_ability"], "defaultAge": 20 },
+  "imageStyle": "Chinese ink and colour wash painting: flowing ink lines, soft washes of colour, misty mountains and open space, like a classical xianxia illustration.",
+  "prompt": [
+    "This is a cultivation (xianxia) novel. Power comes from cultivating through the ranks of the story's rank ladder; never skip ranks or invent ranks outside it.",
+    "Breakthroughs are earned through effort, insight, resources or risk, at the pace the setting's speed of power growth describes.",
+    "Sects, factions and the strong-eat-the-weak order of the world shape every encounter. Match the world cruelty and character mortality in the setting.",
+    "Name techniques and sacred items concretely and keep their limits consistent once established."
+  ]
+}

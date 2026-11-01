@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024" preserveAspectRatio="xMidYMax slice">
+  <!-- General story type background (spec 12.3, decision 127): an abstract
+       ink-wash with no place, era or object, in the grays of the other types. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9a9a9a"/>
+      <stop offset="0.55" stop-color="#8c8c8c"/>
+      <stop offset="1" stop-color="#7d7d7d"/>
+    </linearGradient>
+    <filter id="mist" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+    <filter id="softMist" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+    <!-- Ragged ink edge: a wash bleeding into wet paper. -->
+    <filter id="ink" x="-10%" y="-30%" width="120%" height="160%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012 0.03" numOctaves="3" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="40" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feGaussianBlur in="d" stdDeviation="3"/>
+    </filter>
+    <!-- Dry brush: streaks along the stroke. -->
+    <filter id="brush" x="-10%" y="-60%" width="120%" height="220%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.004 0.18" numOctaves="3" seed="3" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.2 1.5" result="streaks"/>
+      <feComposite in="SourceGraphic" in2="streaks" operator="in" result="s"/>
+      <feDisplacementMap in="s" in2="n" scale="18" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="11"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0.09 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1536" height="1024" fill="url(#sky)"/>
+  <rect y="900" width="1536" height="124" fill="#5a5a5a"/>
+
+  <!-- A pale disc of light behind the mist, upper right. -->
+  <circle cx="1170" cy="250" r="120" fill="#9c9c9c" filter="url(#mist)"/>
+
+  <!-- Far washes: the faintest layer. -->
+  <g filter="url(#ink)" opacity="0.55">
+    <path d="M0 560 C 180 470, 330 520, 470 470 S 760 380, 930 450 S 1240 420, 1380 470 S 1536 450, 1536 450 L1636 1124 L-100 1124 Z" fill="#848484"/>
+  </g>
+  <rect x="-100" y="520" width="1736" height="120" fill="#959595" opacity="0.7" filter="url(#softMist)"/>
+
+  <!-- Middle washes. -->
+  <g filter="url(#ink)" opacity="0.75">
+    <path d="M0 700 C 140 640, 260 610, 420 650 S 700 720, 860 650 S 1120 560, 1290 630 S 1480 690, 1536 660 L1636 1124 L-100 1124 Z" fill="#717171"/>
+  </g>
+  <rect x="-100" y="680" width="1736" height="110" fill="#8f8f8f" opacity="0.65" filter="url(#softMist)"/>
+
+  <!-- Near wash, darkest at the bottom left, like the other backgrounds. -->
+  <g filter="url(#ink)">
+    <path d="M0 780 C 120 740, 250 760, 380 800 S 600 880, 760 860 S 1050 830, 1200 880 S 1450 930, 1536 910 L1636 1124 L-100 1124 Z" fill="#5f5f5f"/>
+    <path d="M0 860 C 160 830, 300 860, 460 900 S 700 960, 900 1060 L900 1124 L-100 1124 Z" fill="#4e4e4e"/>
+  </g>
+
+  <!-- A few loose brush strokes, the only marks of a hand. -->
+  <g filter="url(#brush)" fill="#6a6a6a" opacity="0.35">
+    <path d="M120 300 C 300 270, 520 280, 700 250 C 720 247, 722 262, 702 266 C 520 300, 300 296, 124 316 Z"/>
+    <path d="M980 140 C 1100 120, 1260 128, 1420 110 C 1436 109, 1436 122, 1420 124 C 1260 146, 1100 140, 984 154 Z" opacity="0.6"/>
+    <path d="M560 560 C 700 540, 860 548, 1010 530 C 1024 529, 1024 540, 1010 543 C 860 566, 700 562, 564 574 Z" opacity="0.5"/>
+  </g>
+
+  <!-- Drifting mist over everything, lighter toward the top. -->
+  <ellipse cx="380" cy="420" rx="520" ry="70" fill="#9a9a9a" opacity="0.45" filter="url(#softMist)"/>
+  <ellipse cx="1150" cy="780" rx="600" ry="80" fill="#9c9c9c" opacity="0.4" filter="url(#softMist)"/>
+
+  <rect width="1536" height="1024" filter="url(#grain)"/>
+</svg>

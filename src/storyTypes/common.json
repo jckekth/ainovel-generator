@@ -1,0 +1,165 @@
+{
+  "setting": [
+    { "key": "language", "label": "Language of the novel", "type": "language", "section": "Story", "required": true },
+    {
+      "key": "tone",
+      "label": "Tone",
+      "type": "multi",
+      "section": "Story",
+      "options": ["Sad", "Happy", "Hot-blooded", "Dark", "Humorous"],
+      "max": 2,
+      "hint": "Pick up to two."
+    },
+    {
+      "key": "narration_detail",
+      "label": "Narration detail",
+      "type": "choice",
+      "section": "Story",
+      "options": ["Detailed", "Moderate", "Brief"],
+      "default": "Moderate",
+      "required": true
+    },
+    {
+      "key": "point_of_view",
+      "label": "Point of view",
+      "type": "choice",
+      "section": "Story",
+      "options": ["Main character, first person", "Main character, third person", "God view"],
+      "default": "Main character, third person",
+      "required": true
+    },
+    {
+      "key": "chapter_length",
+      "label": "Chapter length",
+      "type": "choice",
+      "section": "Story",
+      "options": ["Short", "Medium", "Long"],
+      "default": "Medium",
+      "required": true,
+      "hint": "Short is about 1,500 words, Medium 2,500, Long 4,000."
+    },
+    {
+      "key": "story_length",
+      "label": "Story length",
+      "type": "choice",
+      "section": "Story",
+      "options": ["Short story", "Long story", "Continuous"],
+      "default": "Continuous",
+      "required": true,
+      "hint": "Short is about 8 chapters, Long about 60 in 3 volumes, Continuous has no planned end. The story only ends when you end it."
+    },
+    {
+      "key": "content_rating",
+      "label": "Content rating",
+      "type": "choice",
+      "section": "Story",
+      "options": ["General", "Mature"],
+      "default": "General",
+      "required": true,
+      "hint": "Mature allows darker themes. Intimate scenes always fade to black."
+    },
+    {
+      "key": "main_character_death",
+      "label": "Main character death",
+      "type": "choice",
+      "section": "Story",
+      "options": ["Never", "Only when I direct it", "The AI may decide"],
+      "default": "Only when I direct it",
+      "required": true
+    }
+  ],
+  "character": {
+    "head": [
+      { "key": "name", "label": "Name", "type": "text", "section": "Basics", "required": true },
+      {
+        "key": "gender",
+        "label": "Gender",
+        "type": "choice",
+        "section": "Basics",
+        "options": ["Male", "Female", "Non-binary", "Other"]
+      },
+      { "key": "age", "label": "Age", "type": "number", "section": "Basics", "min": 0, "max": 100000 },
+      {
+        "key": "relationship",
+        "label": "Relationship with the main character",
+        "type": "text",
+        "section": "Basics",
+        "placeholder": "e.g. older sister, rival, mentor",
+        "hideForMain": true
+      },
+      {
+        "key": "sexual_orientation",
+        "label": "Sexual orientation",
+        "type": "choice",
+        "section": "Basics",
+        "options": ["Heterosexual", "Homosexual", "Bisexual", "Asexual", "Unspecified"],
+        "default": "Unspecified"
+      },
+      {
+        "key": "moral_alignment",
+        "label": "Moral alignment",
+        "type": "scale",
+        "section": "Personality",
+        "min": 1,
+        "max": 5,
+        "default": 3,
+        "minLabel": "Good",
+        "maxLabel": "Bad"
+      },
+      {
+        "key": "charisma",
+        "label": "Charisma",
+        "type": "scale",
+        "section": "Personality",
+        "min": 1,
+        "max": 10,
+        "default": 5,
+        "minLabel": "Forgettable",
+        "maxLabel": "Magnetic"
+      },
+      {
+        "key": "personality_traits",
+        "label": "Personality traits",
+        "type": "list",
+        "section": "Personality",
+        "hint": "One per line, e.g. stubborn, loyal, quick to anger."
+      },
+      { "key": "goals_and_fears", "label": "Goals and fears", "type": "longtext", "section": "Personality" },
+      {
+        "key": "speech_style",
+        "label": "Speech style",
+        "type": "text",
+        "section": "Personality",
+        "placeholder": "e.g. curt and formal, swears a lot"
+      },
+      {
+        "key": "appearance",
+        "label": "Appearance",
+        "type": "longtext",
+        "section": "Personality",
+        "placeholder": "e.g. tall and lean, black hair tied back, a scar over the left eyebrow, a faded blue robe",
+        "hint": "Sent with every picture of this character, so they look the same each time."
+      }
+    ],
+    "tail": [
+      {
+        "key": "status",
+        "label": "Current status",
+        "type": "choice",
+        "section": "Status",
+        "options": ["Alive", "Dead", "Inactive"],
+        "default": "Alive",
+        "required": true,
+        "hint": "Inactive characters are kept but left out of the story."
+      },
+      { "key": "location", "label": "Location", "type": "text", "section": "Status" },
+      {
+        "key": "condition",
+        "label": "Condition",
+        "type": "text",
+        "section": "Status",
+        "placeholder": "e.g. healthy, badly wounded, poisoned"
+      }
+    ]
+  }
+}

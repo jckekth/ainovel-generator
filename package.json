@@ -1,0 +1,43 @@
+{
+  "name": "ai-novel-generator",
+  "private": true,
+  "version": "0.3.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "mock-ai": "node scripts/mock-ai-server.mjs",
+    "encode-music": "node scripts/encode-music.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:all": "npm run build && npm test && npm run test:e2e"
+  },
+  "dependencies": {
+    "@fontsource/literata": "^5.3.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/plugin-fs": "^2.0.0",
+    "@tauri-apps/plugin-http": "^2.0.0",
+    "@tauri-apps/plugin-opener": "^2.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@tauri-apps/cli": "^2.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "@vitest/coverage-v8": "^5.0.3",
+    "ffmpeg-static": "^5.3.0",
+    "jsdom": "^29.1.1",
+    "typescript": "~6.0.3",
+    "vite": "^7.3.7",
+    "vitest": "^5.0.3"
+  }
+}

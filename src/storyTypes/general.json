@@ -1,0 +1,64 @@
+{
+  "id": "general",
+  "name": "General",
+  "description": "Any genre: you describe the world and say what happens in every block.",
+  "suggestions": false,
+  "worldFirst": true,
+  "settingFields": [
+    {
+      "key": "genre_style",
+      "label": "Genre and style",
+      "type": "longtext",
+      "section": "About your world",
+      "required": true,
+      "placeholder": "e.g. Cozy mystery in 1920s London, light and witty.",
+      "hint": "The kind of story and how it should read. The AI writes in this genre and style.",
+      "default": ""
+    },
+    {
+      "key": "important_places",
+      "label": "Important places",
+      "type": "longtext",
+      "section": "About your world",
+      "placeholder": "e.g. The Blue Lantern: a tea shop on Fleet Street where the detectives meet.",
+      "default": ""
+    },
+    {
+      "key": "groups_factions",
+      "label": "Groups and factions",
+      "type": "longtext",
+      "section": "About your world",
+      "placeholder": "e.g. Scotland Yard, who think amateurs get in the way.",
+      "default": ""
+    },
+    {
+      "key": "world_rules",
+      "label": "Rules of this world",
+      "type": "longtext",
+      "section": "About your world",
+      "placeholder": "e.g. No magic or supernatural events. Every clue must be fair to the reader.",
+      "hint": "Magic, technology, laws, anything the AI must never break.",
+      "default": ""
+    }
+  ],
+  "characterFields": [
+    {
+      "key": "abilities_notes",
+      "label": "Abilities and notes",
+      "type": "longtext",
+      "section": "Abilities",
+      "placeholder": "e.g. A sharp memory for faces; cannot swim; carries her late father's pocket watch.",
+      "hint": "Skills, powers, gear or anything else the AI should know."
+    }
+  ],
+  "settingDefaults": { "tone": [] },
+  "rules": { "defaultAge": 20 },
+  "imageStyle": "Monochrome pencil sketch on white paper, fine graphite shading and cross-hatching, like an illustration in a printed novel.",
+  "prompt": [
+    "The genre and style of this novel are the ones in the setting's genre and style field. Write in that genre, with its usual conventions, vocabulary and pacing, and in that style.",
+    "The setting's rules of this world are hard rules: never break them, and never bring in powers, technology or magic the world does not have.",
+    "Use the setting's important places and groups and factions when the story calls for them; add new ones only when the direction asks for them or the story clearly needs them.",
+    "Follow the user's direction closely: write what it asks for, and do not jump ahead or make big choices for the main character that the direction did not ask for.",
+    "Never use the words or ideas of another genre (such as cultivation realms or game-like levels) unless the genre and style asks for them."
+  ]
+}

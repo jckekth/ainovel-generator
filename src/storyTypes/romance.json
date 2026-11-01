@@ -1,0 +1,147 @@
+{
+  "id": "romance",
+  "name": "Romance",
+  "description": "A relationship that grows between characters, told through their daily lives.",
+  "settingFields": [
+    {
+      "key": "era_and_place",
+      "label": "Era and place",
+      "type": "choice",
+      "section": "Romance world",
+      "options": ["Modern city", "Campus", "Office", "Historical", "Fantasy", "Other"],
+      "default": "Modern city",
+      "required": true
+    },
+    {
+      "key": "era_and_place_details",
+      "label": "Era and place details",
+      "type": "text",
+      "section": "Romance world",
+      "placeholder": "e.g. Tang dynasty capital, a small seaside town",
+      "default": "A busy coastal city in the present day"
+    },
+    {
+      "key": "world_supportiveness",
+      "label": "World supportiveness toward the main character",
+      "type": "scale",
+      "section": "Romance world",
+      "min": 1,
+      "max": 5,
+      "default": 3,
+      "minLabel": "Hostile",
+      "maxLabel": "Supportive"
+    },
+    {
+      "key": "trope",
+      "label": "Trope",
+      "type": "choice",
+      "section": "Romance world",
+      "options": ["Slow burn", "Enemies to lovers", "Childhood friends", "Fake relationship", "Second chance", "Other"],
+      "default": "Slow burn",
+      "required": true
+    },
+    {
+      "key": "relationship_pace",
+      "label": "Relationship pace",
+      "type": "choice",
+      "section": "Romance world",
+      "options": ["Slow", "Medium", "Fast"],
+      "default": "Medium",
+      "required": true
+    },
+    {
+      "key": "rivals",
+      "label": "Rivals",
+      "type": "choice",
+      "section": "Romance world",
+      "options": ["None", "One", "Several"],
+      "default": "None",
+      "required": true
+    },
+    {
+      "key": "ending_tendency",
+      "label": "Ending tendency",
+      "type": "choice",
+      "section": "Romance world",
+      "options": ["Happy", "Bittersweet", "Open"],
+      "default": "Happy",
+      "required": true
+    }
+  ],
+  "characterFields": [
+    { "key": "occupation", "label": "Occupation", "type": "text", "section": "Appearance and life" },
+    {
+      "key": "body_build",
+      "label": "Body build",
+      "type": "choice",
+      "section": "Appearance and life",
+      "options": ["Slim", "Average", "Athletic", "Muscular", "Curvy", "Heavy"]
+    },
+    {
+      "key": "height",
+      "label": "Height",
+      "type": "text",
+      "section": "Appearance and life",
+      "placeholder": "e.g. 175 cm, tall for her age"
+    },
+    {
+      "key": "hair_length",
+      "label": "Hair length",
+      "type": "choice",
+      "section": "Appearance and life",
+      "options": ["Bald", "Very short", "Short", "Medium", "Long", "Very long"]
+    },
+    { "key": "hair_colour", "label": "Hair colour", "type": "text", "section": "Appearance and life" },
+    {
+      "key": "appearance_notes",
+      "label": "Other appearance notes",
+      "type": "longtext",
+      "section": "Appearance and life"
+    },
+    {
+      "key": "love_language",
+      "label": "Love language",
+      "type": "choice",
+      "section": "Romance",
+      "options": ["Words of affirmation", "Acts of service", "Receiving gifts", "Quality time", "Physical touch"]
+    },
+    {
+      "key": "attachment_style",
+      "label": "Attachment style",
+      "type": "choice",
+      "section": "Romance",
+      "options": ["Secure", "Anxious", "Avoidant", "Mixed"]
+    },
+    { "key": "flaws", "label": "Flaws", "type": "list", "section": "Romance", "hint": "One per line." },
+    {
+      "key": "affection",
+      "label": "Affection toward the main character",
+      "type": "scale",
+      "section": "Romance",
+      "min": 0,
+      "max": 100,
+      "default": 10,
+      "minLabel": "None",
+      "maxLabel": "Devoted",
+      "hideForMain": true
+    },
+    {
+      "key": "relationship_stage",
+      "label": "Relationship stage with the main character",
+      "type": "choice",
+      "section": "Romance",
+      "options": ["Stranger", "Acquaintance", "Friend", "Crush", "Dating", "Partner", "Ex"],
+      "default": "Stranger",
+      "hideForMain": true
+    }
+  ],
+  "settingDefaults": { "tone": ["Happy", "Humorous"] },
+  "rules": { "minAge": 18, "defaultAge": 25 },
+  "imageStyle": "Soft watercolour illustration with warm pastel light and gentle brushwork, like the cover of a romance novel.",
+  "prompt": [
+    "This is a romance novel. The heart of every chapter is how the relationships between the characters change, shown through daily life, dialogue and small gestures.",
+    "Let affection and the relationship stage move at the pace the setting asks for; do not rush past stages.",
+    "Every character is an adult (18 or older). Intimate scenes fade to black.",
+    "Keep each character's love language, attachment style and flaws visible in how they act."
+  ]
+}

@@ -1,0 +1,374 @@
+[
+  {
+    "id": "harbour-cafe",
+    "values": {
+      "tone": ["Happy", "Humorous"],
+      "era_and_place": "Modern city",
+      "world_supportiveness": 3,
+      "trope": "Slow burn",
+      "relationship_pace": "Medium",
+      "rivals": "None",
+      "ending_tendency": "Happy"
+    },
+    "main": {
+      "gender": "Female",
+      "age": 27,
+      "moral_alignment": 2,
+      "charisma": 7,
+      "body_build": "Slim",
+      "hair_length": "Medium",
+      "love_language": "Acts of service",
+      "attachment_style": "Anxious"
+    },
+    "text": {
+      "en": {
+        "values": { "era_and_place_details": "A busy coastal city in the present day" },
+        "background": "A busy coastal city in the present day, where the old harbour district is being rebuilt into cafés, studios and glass towers. Rents are rising, everyone works too much, and the neighbours in the old buildings still know each other's business. The story begins in early spring, when two strangers are forced to share something neither of them wants to give up.",
+        "main": {
+          "name": "Chen Mei",
+          "personality_traits": ["Warm", "Stubborn", "Overthinks everything"],
+          "goals_and_fears": "Wants to keep her café open as the harbour district changes around it. Fears being left the way her father left.",
+          "speech_style": "Quick and teasing; goes quiet when she is hurt",
+          "appearance": "Slim, with a warm smile and tired dark eyes; shoulder-length black hair usually clipped up; a flour-dusted apron over a soft cream jumper, sleeves pushed to the elbows.",
+          "occupation": "Owner of a small café in the old harbour district",
+          "height": "162 cm",
+          "hair_colour": "Black",
+          "appearance_notes": "Always has flour on one sleeve; wears her late grandmother's silver ring.",
+          "flaws": ["Avoids hard conversations", "Works too much"],
+          "location": "Her café on Harbour Lane, with a small flat upstairs",
+          "condition": "Healthy, tired"
+        },
+        "mainBackground": "Chen Mei took over her grandmother's café five years ago and has kept it alive through two rent rises and one flood. She knows every regular by their order. This spring the building is sold to a developer, and the new owner's representative turns out to be someone who wants the ground floor for a project of their own.",
+        "names": {
+          "male": ["Lu Yichen", "Zhou Hang", "He Jiaming", "Song Ziyang", "Lin Che", "Gao Yuan", "Xu Mo", "Shen Kai", "Tang Rui", "Wen Zhe"],
+          "female": ["Xia Qing", "Su Yan", "Jiang Xiaoman", "Lu Wei", "Fang Yuan", "Qin Lan", "He Miao", "Zheng Yi", "Liang Shan", "Ye Tong"]
+        }
+      },
+      "zh-Hans": {
+        "values": { "era_and_place_details": "现代一座繁忙的海港城市" },
+        "background": "现代一座繁忙的海港城市，老港区正被改造成咖啡馆、工作室和玻璃大楼。房租一路上涨，人人都忙得喘不过气，老楼里的邻居却还对彼此的家事了如指掌。故事从早春开始，两个陌生人被迫共享一样谁都不愿放手的东西。",
+        "main": {
+          "name": "陈梅",
+          "personality_traits": ["热心", "倔强", "什么事都想太多"],
+          "goals_and_fears": "想在港区的变迁中守住自己的咖啡馆。最怕像当年父亲那样，被人一声不吭地丢下。",
+          "speech_style": "嘴快，爱逗人；一受伤就不说话了",
+          "appearance": "身材纤瘦，笑容温暖，一双有些疲惫的黑眼睛；齐肩黑发通常用发夹别起来；米白色软毛衣外系着沾了面粉的围裙，袖子推到手肘。",
+          "occupation": "老港区一家小咖啡馆的老板",
+          "height": "162 厘米",
+          "hair_colour": "黑色",
+          "appearance_notes": "袖口上总沾着面粉；手上戴着过世外婆留下的银戒指。",
+          "flaws": ["逃避难开口的谈话", "工作过度"],
+          "location": "港湾巷上她的咖啡馆，楼上是她的小公寓",
+          "condition": "身体健康，有点累"
+        },
+        "mainBackground": "五年前，陈梅接手了外婆的咖啡馆，熬过了两次涨租和一场水灾。每位熟客点什么，她都记得一清二楚。今年春天，整栋楼被卖给了开发商，而新业主派来的代表，偏偏想把一楼拿去做自己的项目。",
+        "names": {
+          "male": ["陆以琛", "周航", "何嘉明", "宋子扬", "林澈", "高远", "许墨", "沈凯", "唐睿", "温哲"],
+          "female": ["夏晴", "苏妍", "江小满", "陆薇", "方圆", "秦岚", "何苗", "郑怡", "梁珊", "叶彤"]
+        }
+      },
+      "zh-Hant": {
+        "values": { "era_and_place_details": "現代一座繁忙的海港城市" },
+        "background": "現代一座繁忙的海港城市，老港區正被改造成咖啡館、工作室和玻璃大樓。房租一路上漲，人人都忙得喘不過氣，老樓裡的鄰居卻還對彼此的家事瞭如指掌。故事從早春開始，兩個陌生人被迫共享一樣誰都不願放手的東西。",
+        "main": {
+          "name": "陳梅",
+          "personality_traits": ["熱心", "倔強", "什麼事都想太多"],
+          "goals_and_fears": "想在港區的變遷中守住自己的咖啡館。最怕像當年父親那樣，被人一聲不吭地丟下。",
+          "speech_style": "嘴快，愛逗人；一受傷就不說話了",
+          "appearance": "身材纖瘦，笑容溫暖，一雙有些疲憊的黑眼睛；齊肩黑髮通常用髮夾別起來；米白色軟毛衣外繫著沾了麵粉的圍裙，袖子推到手肘。",
+          "occupation": "老港區一家小咖啡館的老闆",
+          "height": "162 公分",
+          "hair_colour": "黑色",
+          "appearance_notes": "袖口上總沾著麵粉；手上戴著過世外婆留下的銀戒指。",
+          "flaws": ["逃避難開口的談話", "工作過度"],
+          "location": "港灣巷上她的咖啡館，樓上是她的小公寓",
+          "condition": "身體健康，有點累"
+        },
+        "mainBackground": "五年前，陳梅接手了外婆的咖啡館，熬過了兩次漲租和一場水災。每位熟客點什麼，她都記得一清二楚。今年春天，整棟樓被賣給了開發商，而新業主派來的代表，偏偏想把一樓拿去做自己的專案。",
+        "names": {
+          "male": ["陸以琛", "周航", "何嘉明", "宋子揚", "林澈", "高遠", "許墨", "沈凱", "唐睿", "溫哲"],
+          "female": ["夏晴", "蘇妍", "江小滿", "陸薇", "方圓", "秦嵐", "何苗", "鄭怡", "梁珊", "葉彤"]
+        }
+      }
+    }
+  },
+  {
+    "id": "hillside-campus",
+    "values": {
+      "tone": ["Humorous", "Happy"],
+      "era_and_place": "Campus",
+      "world_supportiveness": 4,
+      "trope": "Enemies to lovers",
+      "relationship_pace": "Medium",
+      "rivals": "One",
+      "ending_tendency": "Happy"
+    },
+    "main": {
+      "gender": "Male",
+      "age": 20,
+      "moral_alignment": 2,
+      "charisma": 6,
+      "body_build": "Athletic",
+      "hair_length": "Short",
+      "love_language": "Quality time",
+      "attachment_style": "Avoidant"
+    },
+    "text": {
+      "en": {
+        "values": { "era_and_place_details": "Qingshan University, a hillside campus in a rainy southern city, present day" },
+        "background": "Qingshan University climbs a green hill above a rainy southern city: stone steps, camphor trees, a lake where couples are said to break up, and a library that never closes during exams. This year the architecture and law schools must share a renovated studio building after a funding cut, and the two faculties have hated each other for decades. Every club, dorm and canteen table takes sides.",
+        "main": {
+          "name": "Jiang Chen",
+          "personality_traits": ["Proud", "Hard-working", "Secretly soft-hearted"],
+          "goals_and_fears": "Wants to win the national student design prize and get the scholarship that keeps him in school. Fears that people only like him for what he can do.",
+          "speech_style": "Dry and sarcastic; answers questions with questions",
+          "appearance": "Tall and athletic, with a quiet, guarded face and dark eyes behind thin-framed glasses; short black hair; a plain navy hoodie, jeans and a worn canvas backpack.",
+          "occupation": "Third-year architecture student, part-time tutor",
+          "height": "183 cm",
+          "hair_colour": "Black",
+          "appearance_notes": "Ink on his fingers, glasses he only wears when drawing, an old camera around his neck.",
+          "flaws": ["Cannot admit when he is wrong", "Shuts people out when stressed"],
+          "location": "Dorm 7 on the east side of campus, and the studio building at night",
+          "condition": "Healthy, short on sleep"
+        },
+        "mainBackground": "Jiang Chen grew up in a small mountain town and got into Qingshan on a scholarship. He is top of his year and has made a habit of being alone. When the studio building is split in two, his desk ends up beside the law school's debate captain, who has already reported him twice for working past midnight. They now need each other's signatures for the same competition.",
+        "names": {
+          "male": ["Zhou Xu", "Li Mingze", "Han Song", "Xu Yifan", "Chen Hao", "Bai Yu", "Gu Xingchen", "Sun Lei", "Wei Ran", "Qiao Yang"],
+          "female": ["Lin Xi", "Tang Xiaoxiao", "Shen Yue", "Su Nian", "Qiu Ran", "Zhao Yingying", "Meng Qi", "Yu Tong", "Luo Jia", "Cheng Xin"]
+        }
+      },
+      "zh-Hans": {
+        "values": { "era_and_place_details": "现代，南方多雨城市里依山而建的青山大学" },
+        "background": "青山大学建在南方一座多雨城市的青翠山坡上：石阶、樟树、一个据说情侣去了就会分手的湖，还有一座考试周通宵开放的图书馆。今年经费被砍，建筑学院和法学院不得不共用一栋翻新的工作室大楼，偏偏这两个学院已经互看不顺眼几十年了。每个社团、每间宿舍、食堂的每张桌子都在站队。",
+        "main": {
+          "name": "江辰",
+          "personality_traits": ["骄傲", "肯吃苦", "嘴硬心软"],
+          "goals_and_fears": "想拿下全国大学生设计大奖，保住让他能继续读书的奖学金。最怕别人喜欢他，只是因为他有用。",
+          "speech_style": "说话冷淡带刺；别人问他问题，他总反问回去",
+          "appearance": "高个子，身材健实，神情安静而疏离，细框眼镜后一双黑眼睛；黑色短发；一件素净的藏青色连帽衫，牛仔裤，背着一个旧帆布双肩包。",
+          "occupation": "建筑系大三学生，兼职家教",
+          "height": "183 厘米",
+          "hair_colour": "黑色",
+          "appearance_notes": "手指上常沾着墨水，画图时才戴眼镜，脖子上挂着一台旧相机。",
+          "flaws": ["死不认错", "压力一大就把人推开"],
+          "location": "校园东区七号宿舍楼，晚上泡在工作室大楼",
+          "condition": "身体健康，睡眠不足"
+        },
+        "mainBackground": "江辰在一个山区小镇长大，靠奖学金考进了青山大学。他是年级第一，也习惯了独来独往。工作室大楼一分为二之后，他的桌子正好挨着法学院辩论队队长，那人已经因为他半夜还在开灯赶图举报过他两次。现在，两人参加同一个比赛，都需要对方的签名。",
+        "names": {
+          "male": ["周旭", "李铭泽", "韩松", "许一帆", "陈浩", "白羽", "顾星辰", "孙磊", "魏然", "乔阳"],
+          "female": ["林汐", "唐笑笑", "沈玥", "苏念", "邱冉", "赵莹莹", "孟琪", "余彤", "罗佳", "程欣"]
+        }
+      },
+      "zh-Hant": {
+        "values": { "era_and_place_details": "現代，南方多雨城市裡依山而建的青山大學" },
+        "background": "青山大學建在南方一座多雨城市的青翠山坡上：石階、樟樹、一個據說情侶去了就會分手的湖，還有一座考試週通宵開放的圖書館。今年經費被砍，建築學院和法學院不得不共用一棟翻新的工作室大樓，偏偏這兩個學院已經互看不順眼幾十年了。每個社團、每間宿舍、餐廳的每張桌子都在選邊站。",
+        "main": {
+          "name": "江辰",
+          "personality_traits": ["驕傲", "肯吃苦", "嘴硬心軟"],
+          "goals_and_fears": "想拿下全國大學生設計大獎，保住讓他能繼續讀書的獎學金。最怕別人喜歡他，只是因為他有用。",
+          "speech_style": "說話冷淡帶刺；別人問他問題，他總反問回去",
+          "appearance": "高個子，身材健實，神情安靜而疏離，細框眼鏡後一雙黑眼睛；黑色短髮；一件素淨的藏青色連帽衫，牛仔褲，背著一個舊帆布雙肩包。",
+          "occupation": "建築系大三學生，兼職家教",
+          "height": "183 公分",
+          "hair_colour": "黑色",
+          "appearance_notes": "手指上常沾著墨水，畫圖時才戴眼鏡，脖子上掛著一台舊相機。",
+          "flaws": ["死不認錯", "壓力一大就把人推開"],
+          "location": "校園東區七號宿舍樓，晚上泡在工作室大樓",
+          "condition": "身體健康，睡眠不足"
+        },
+        "mainBackground": "江辰在一個山區小鎮長大，靠獎學金考進了青山大學。他是年級第一，也習慣了獨來獨往。工作室大樓一分為二之後，他的桌子正好挨著法學院辯論隊隊長，那人已經因為他半夜還在開燈趕圖檢舉過他兩次。現在，兩人參加同一個比賽，都需要對方的簽名。",
+        "names": {
+          "male": ["周旭", "李銘澤", "韓松", "許一帆", "陳浩", "白羽", "顧星辰", "孫磊", "魏然", "喬陽"],
+          "female": ["林汐", "唐笑笑", "沈玥", "蘇念", "邱冉", "趙瑩瑩", "孟琪", "余彤", "羅佳", "程欣"]
+        }
+      }
+    }
+  },
+  {
+    "id": "tower-office",
+    "values": {
+      "tone": ["Humorous", "Sad"],
+      "era_and_place": "Office",
+      "world_supportiveness": 2,
+      "trope": "Fake relationship",
+      "relationship_pace": "Slow",
+      "rivals": "Several",
+      "ending_tendency": "Open"
+    },
+    "main": {
+      "gender": "Female",
+      "age": 29,
+      "moral_alignment": 2,
+      "charisma": 6,
+      "body_build": "Average",
+      "hair_length": "Long",
+      "love_language": "Words of affirmation",
+      "attachment_style": "Secure"
+    },
+    "text": {
+      "en": {
+        "values": { "era_and_place_details": "A design agency on the 38th floor of a glass tower in a big business district, present day" },
+        "background": "Lumen Design fills the 38th floor of a glass tower in the city's business district: open desks, a coffee machine that is always broken, and a view of the river nobody has time to look at. The agency has just been bought by a larger group, and everyone is quietly updating their CV. Promotions, layoffs and office gossip move faster than the lifts, and the annual gala is six weeks away.",
+        "main": {
+          "name": "Xu Ning",
+          "personality_traits": ["Organised", "Quick-witted", "Too responsible"],
+          "goals_and_fears": "Wants the creative director job that opens after the merger, and to get her family to stop arranging blind dates. Fears ending up like her mother: brilliant, overlooked and alone.",
+          "speech_style": "Crisp and professional at work, rambling and funny after one drink",
+          "appearance": "Average height, with a composed face and sharp, expressive eyes; long straight black hair, often in a low ponytail; a tailored grey blazer over a white blouse, a slim silver watch.",
+          "occupation": "Senior project manager at Lumen Design",
+          "height": "167 cm",
+          "hair_colour": "Dark brown",
+          "appearance_notes": "Sharp blazers, worn-out trainers under her desk, a pen always behind her ear.",
+          "flaws": ["Cannot say no", "Hides feelings behind jokes"],
+          "location": "Her rented flat by the river, and the 38th floor most evenings",
+          "condition": "Healthy, overworked"
+        },
+        "mainBackground": "Xu Ning has run Lumen's biggest accounts for four years without ever getting the credit. At her cousin's wedding, cornered by aunts with photos of eligible men, she announced she already had a boyfriend and pointed at the first colleague she saw. He played along. Now her family wants to meet him, the office has noticed, and he has his own reasons to keep pretending.",
+        "names": {
+          "male": ["Gu Yan", "Lu Shen", "Pei Chuan", "Fu Jingxing", "Yan Mo", "Qi Shao", "He Liang", "Zhang Yuchen", "Ji Feng", "Jiang Ming"],
+          "female": ["Lin Wanwan", "Song Qiao", "Bai Lu", "Wu Jing", "Deng Yao", "Yao Xin", "Hu Die", "Chu Yun", "Kong Jia", "Lu Qing"]
+        }
+      },
+      "zh-Hans": {
+        "values": { "era_and_place_details": "现代，大城市商务区一栋玻璃大楼 38 层的设计公司" },
+        "background": "流明设计占据了城市商务区一栋玻璃大楼的整个 38 层：开放式工位、一台永远坏着的咖啡机，还有一片没人有空看的江景。公司刚被一家大集团收购，人人都在悄悄更新简历。升职、裁员和八卦传得比电梯还快，而一年一度的年会只剩六个星期。",
+        "main": {
+          "name": "许宁",
+          "personality_traits": ["做事有条理", "反应快", "责任心太重"],
+          "goals_and_fears": "想拿下合并后空出来的创意总监职位，也想让家里人别再给她安排相亲。最怕变成母亲那样：才华横溢，却被人忽视，最后孤身一人。",
+          "speech_style": "上班时干练专业，喝一杯酒就开始东拉西扯、妙语连珠",
+          "appearance": "中等身高，神情从容，一双锐利又有神的眼睛；黑色直长发，常扎成低马尾；白衬衫外一件合身的灰色西装外套，戴一块细细的银表。",
+          "occupation": "流明设计高级项目经理",
+          "height": "167 厘米",
+          "hair_colour": "深棕色",
+          "appearance_notes": "穿利落的西装外套，桌子底下藏着一双穿旧的运动鞋，耳朵上总夹着一支笔。",
+          "flaws": ["不会拒绝别人", "用玩笑掩饰感情"],
+          "location": "江边的出租公寓，大多数晚上在 38 层加班",
+          "condition": "身体健康，过度劳累"
+        },
+        "mainBackground": "四年来，许宁负责流明设计最大的几个客户，功劳却从来不归她。在表妹的婚礼上，她被一群拿着相亲照片的阿姨围住，情急之下宣布自己已经有男朋友，随手指了指看到的第一个同事。对方居然配合了。现在家里人要见他，公司里也传开了，而他似乎有自己的理由，想把这场戏继续演下去。",
+        "names": {
+          "male": ["顾言", "陆深", "裴川", "傅景行", "严默", "齐少", "何亮", "张宇宸", "纪峰", "蒋明"],
+          "female": ["林晚晚", "宋乔", "白露", "吴静", "邓瑶", "姚欣", "胡蝶", "楚云", "孔佳", "陆青"]
+        }
+      },
+      "zh-Hant": {
+        "values": { "era_and_place_details": "現代，大城市商務區一棟玻璃大樓 38 樓的設計公司" },
+        "background": "流明設計佔據了城市商務區一棟玻璃大樓的整個 38 樓：開放式座位、一台永遠壞著的咖啡機，還有一片沒人有空看的河景。公司剛被一家大集團收購，人人都在悄悄更新履歷。升職、裁員和八卦傳得比電梯還快，而一年一度的尾牙只剩六個星期。",
+        "main": {
+          "name": "許寧",
+          "personality_traits": ["做事有條理", "反應快", "責任心太重"],
+          "goals_and_fears": "想拿下合併後空出來的創意總監職位，也想讓家裡人別再幫她安排相親。最怕變成母親那樣：才華洋溢，卻被人忽視，最後孤身一人。",
+          "speech_style": "上班時幹練專業，喝一杯酒就開始東拉西扯、妙語如珠",
+          "appearance": "中等身高，神情從容，一雙銳利又有神的眼睛；黑色直長髮，常紮成低馬尾；白襯衫外一件合身的灰色西裝外套，戴一只細細的銀錶。",
+          "occupation": "流明設計資深專案經理",
+          "height": "167 公分",
+          "hair_colour": "深棕色",
+          "appearance_notes": "穿俐落的西裝外套，桌子底下藏著一雙穿舊的運動鞋，耳朵上總夾著一支筆。",
+          "flaws": ["不會拒絕別人", "用玩笑掩飾感情"],
+          "location": "河邊的租屋，大多數晚上在 38 樓加班",
+          "condition": "身體健康，過度勞累"
+        },
+        "mainBackground": "四年來，許寧負責流明設計最大的幾個客戶，功勞卻從來不歸她。在表妹的婚禮上，她被一群拿著相親照片的阿姨圍住，情急之下宣布自己已經有男朋友，隨手指了指看到的第一個同事。對方居然配合了。現在家裡人要見他，公司裡也傳開了，而他似乎有自己的理由，想把這場戲繼續演下去。",
+        "names": {
+          "male": ["顧言", "陸深", "裴川", "傅景行", "嚴默", "齊少", "何亮", "張宇宸", "紀峰", "蔣明"],
+          "female": ["林晚晚", "宋喬", "白露", "吳靜", "鄧瑤", "姚欣", "胡蝶", "楚雲", "孔佳", "陸青"]
+        }
+      }
+    }
+  },
+  {
+    "id": "changan-embroidery",
+    "values": {
+      "tone": ["Sad"],
+      "era_and_place": "Historical",
+      "world_supportiveness": 2,
+      "trope": "Second chance",
+      "relationship_pace": "Slow",
+      "rivals": "One",
+      "ending_tendency": "Bittersweet"
+    },
+    "main": {
+      "gender": "Female",
+      "age": 24,
+      "moral_alignment": 2,
+      "charisma": 6,
+      "body_build": "Slim",
+      "hair_length": "Very long",
+      "love_language": "Receiving gifts",
+      "attachment_style": "Mixed"
+    },
+    "text": {
+      "en": {
+        "values": { "era_and_place_details": "The imperial capital Chang'an in a Tang-like dynasty, after a long war on the frontier" },
+        "background": "Chang'an, capital of a Tang-like empire, is celebrating the end of a ten-year war on the northern frontier. The markets overflow with silk, spices and foreign merchants, poets drink in the wine houses, and the court is busy rewarding generals and settling old debts. Behind the festival lanterns, families ruined by the war are quietly trying to rebuild, and a single rumour can still destroy a woman's name.",
+        "main": {
+          "name": "Shen Zhiyi",
+          "personality_traits": ["Composed", "Proud", "Fiercely independent"],
+          "goals_and_fears": "Wants to keep her embroidery shop and clear her late father's name. Fears trusting the man who left her once, and fears even more that she still wants to.",
+          "speech_style": "Courteous and measured; her needle says what her words will not",
+          "appearance": "Slender and graceful, with a pale oval face and calm, watchful eyes; very long black hair pinned up with a single wooden hairpin; a faded lilac silk robe, a needle case at her sash.",
+          "occupation": "Owner of an embroidery shop in the West Market",
+          "height": "Slender, slightly taller than most women",
+          "hair_colour": "Black",
+          "appearance_notes": "Plain dark robes she embroiders herself, a jade hairpin, calluses on her fingertips.",
+          "flaws": ["Holds grudges", "Refuses help even when she needs it"],
+          "location": "Her shop and rooms behind it in Chang'an's West Market",
+          "condition": "Healthy, worn by grief"
+        },
+        "mainBackground": "Shen Zhiyi was once betrothed to the son of a military family. When her father, a court official, was accused of treason and died in prison, the engagement was broken by letter and her fiancé left for the frontier without a word. Seven years later she is a widow who supports herself with her needle, and he has come home a celebrated general, asking for an embroidered banner for the emperor's victory feast.",
+        "names": {
+          "male": ["Xie Huai", "Pei Zhao", "Li Chengyou", "Wei Zhan", "Cui Heng", "Lu Jingzhi", "Yuwen Lie", "Du Ming", "Fang Qiu", "Wang Yuanzhi"],
+          "female": ["Wei Ruyi", "Lu Shuang", "Cui Lingrong", "Pei Yao", "Liu Zhizhi", "Yang Yuhuan", "Wang Qingluan", "Xue Tao", "Li Mingyue", "Zheng Ruoshui"]
+        }
+      },
+      "zh-Hans": {
+        "values": { "era_and_place_details": "仿唐王朝的都城长安，北方边关十年战事刚刚结束" },
+        "background": "仿唐王朝的都城长安，正在庆祝北方边关十年战事的结束。市集上堆满了丝绸、香料和胡商，诗人在酒肆里饮酒，朝廷忙着封赏将军、清算旧账。节庆的灯笼背后，被战火拖垮的人家正悄悄重整门户，而一句流言，仍足以毁掉一个女子的名声。",
+        "main": {
+          "name": "沈知意",
+          "personality_traits": ["沉静", "骄傲", "极其独立"],
+          "goals_and_fears": "想守住自己的绣坊，为过世的父亲洗清冤屈。最怕再次相信那个曾经离开她的人，更怕自己心里其实还想相信他。",
+          "speech_style": "客气而有分寸；嘴上不说的话，都绣在针线里",
+          "appearance": "身姿纤细秀雅，白皙的鹅蛋脸，一双沉静而警觉的眼睛；极长的乌发只用一根木簪挽起；一身褪了色的淡紫绸衫，腰间挂着针线囊。",
+          "occupation": "长安西市一家绣坊的掌柜",
+          "height": "身形纤细，比寻常女子略高",
+          "hair_colour": "乌黑",
+          "appearance_notes": "穿自己绣的素色深衣，簪一支玉簪，指尖有薄茧。",
+          "flaws": ["记仇", "再难也不肯接受帮助"],
+          "location": "长安西市她的绣坊，以及铺子后面的住处",
+          "condition": "身体无恙，被悲伤消磨"
+        },
+        "mainBackground": "沈知意曾与一位将门之子订有婚约。她的父亲在朝为官，被诬谋反，死于狱中；婚约随即以一纸书信作废，未婚夫一句话也没留就去了边关。七年后，她已是靠一根绣花针养活自己的寡妇，而他作为名震天下的将军回到长安，登门请她为天子的庆功宴绣一面锦旗。",
+        "names": {
+          "male": ["谢怀", "裴昭", "李承佑", "魏湛", "崔衡", "卢敬之", "宇文烈", "杜明", "房秋", "王元之"],
+          "female": ["韦如意", "卢霜", "崔令容", "裴瑶", "柳枝枝", "杨玉环", "王青鸾", "薛涛", "李明月", "郑若水"]
+        }
+      },
+      "zh-Hant": {
+        "values": { "era_and_place_details": "仿唐王朝的都城長安，北方邊關十年戰事剛剛結束" },
+        "background": "仿唐王朝的都城長安，正在慶祝北方邊關十年戰事的結束。市集上堆滿了絲綢、香料和胡商，詩人在酒肆裡飲酒，朝廷忙著封賞將軍、清算舊帳。節慶的燈籠背後，被戰火拖垮的人家正悄悄重整門戶，而一句流言，仍足以毀掉一個女子的名聲。",
+        "main": {
+          "name": "沈知意",
+          "personality_traits": ["沉靜", "驕傲", "極其獨立"],
+          "goals_and_fears": "想守住自己的繡坊，為過世的父親洗清冤屈。最怕再次相信那個曾經離開她的人，更怕自己心裡其實還想相信他。",
+          "speech_style": "客氣而有分寸；嘴上不說的話，都繡在針線裡",
+          "appearance": "身姿纖細秀雅，白皙的鵝蛋臉，一雙沉靜而警覺的眼睛；極長的烏髮只用一根木簪挽起；一身褪了色的淡紫綢衫，腰間掛著針線囊。",
+          "occupation": "長安西市一家繡坊的掌櫃",
+          "height": "身形纖細，比尋常女子略高",
+          "hair_colour": "烏黑",
+          "appearance_notes": "穿自己繡的素色深衣，簪一支玉簪，指尖有薄繭。",
+          "flaws": ["記仇", "再難也不肯接受幫助"],
+          "location": "長安西市她的繡坊，以及鋪子後面的住處",
+          "condition": "身體無恙，被悲傷消磨"
+        },
+        "mainBackground": "沈知意曾與一位將門之子訂有婚約。她的父親在朝為官，被誣謀反，死於獄中；婚約隨即以一紙書信作廢，未婚夫一句話也沒留就去了邊關。七年後，她已是靠一根繡花針養活自己的寡婦，而他作為名震天下的將軍回到長安，登門請她為天子的慶功宴繡一面錦旗。",
+        "names": {
+          "male": ["謝懷", "裴昭", "李承佑", "魏湛", "崔衡", "盧敬之", "宇文烈", "杜明", "房秋", "王元之"],
+          "female": ["韋如意", "盧霜", "崔令容", "裴瑤", "柳枝枝", "楊玉環", "王青鸞", "薛濤", "李明月", "鄭若水"]
+        }
+      }
+    }
+  }
+]

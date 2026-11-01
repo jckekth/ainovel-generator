@@ -1,0 +1,148 @@
+{
+  "id": "fantasy",
+  "name": "Fantasy",
+  "description": "Races, magic with a price, kingdoms at war and adventurers on the road.",
+  "settingFields": [
+    {
+      "key": "races",
+      "label": "Races of the world",
+      "type": "list",
+      "section": "Fantasy world",
+      "hint": "One per line, e.g. Elves: long-lived forest folk. Characters pick their race from this list.",
+      "default": [
+        "Humans: the most numerous race, ruling the river kingdoms.",
+        "Elves: long-lived forest folk who remember the old evil.",
+        "Dwarves: miners and smiths under the northern mountains.",
+        "Halflings: small, quiet farmers whom no one expects to be brave."
+      ]
+    },
+    {
+      "key": "adventurer_ranks",
+      "label": "Adventurer ranks",
+      "type": "list",
+      "section": "Fantasy world",
+      "hint": "Optional. Lowest rank first, one per line. Leave it empty for a story without ranks.",
+      "default": ["Copper", "Iron", "Silver", "Gold", "Mithril"]
+    },
+    {
+      "key": "magic_system",
+      "label": "Magic system",
+      "type": "longtext",
+      "section": "Fantasy world",
+      "placeholder": "How magic works and what it costs",
+      "default": "Magic is drawn from the ley lines that run beneath the land. A spell borrows strength from the caster's own body: small spells tire, great ones can leave a mage bedridden for days or grey before their time."
+    },
+    {
+      "key": "magic_commonness",
+      "label": "How common magic is",
+      "type": "choice",
+      "section": "Fantasy world",
+      "options": ["Rare", "Uncommon", "Common"],
+      "default": "Uncommon",
+      "required": true
+    },
+    {
+      "key": "factions",
+      "label": "Major factions and kingdoms",
+      "type": "list",
+      "section": "Fantasy world",
+      "hint": "One per line, e.g. The Kingdom of Aldmere: an old human realm with a dying king.",
+      "default": [
+        "The Kingdom of Aldmere: an old human realm whose king is dying without an heir.",
+        "The Silverwood: the last elven forest, closed to outsiders for a hundred years.",
+        "The Order of the Dawn: knights sworn to the crown, now split over the succession."
+      ]
+    },
+    {
+      "key": "world_danger",
+      "label": "World danger",
+      "type": "scale",
+      "section": "Fantasy world",
+      "min": 1,
+      "max": 5,
+      "default": 3,
+      "minLabel": "Safe roads",
+      "maxLabel": "Deadly wilds"
+    },
+    {
+      "key": "character_mortality",
+      "label": "Character mortality",
+      "type": "choice",
+      "section": "Fantasy world",
+      "options": ["Rarely", "Sometimes", "Often"],
+      "default": "Sometimes",
+      "required": true,
+      "hint": "How easily named characters die."
+    },
+    {
+      "key": "main_character_difficulties",
+      "label": "Difficulties faced by the main character",
+      "type": "longtext",
+      "section": "Fantasy world",
+      "default": "A newly sworn knight of no great family, the main character is trusted by no faction, owed nothing by the court, and carries a sword that the returning darkness seems to recognise."
+    },
+    {
+      "key": "power_growth",
+      "label": "Speed of power growth",
+      "type": "choice",
+      "section": "Fantasy world",
+      "options": ["Slow", "Steady", "Fast"],
+      "default": "Steady",
+      "required": true
+    }
+  ],
+  "characterFields": [
+    {
+      "key": "race",
+      "label": "Race",
+      "type": "pick",
+      "from": "races",
+      "section": "Adventurer",
+      "hint": "From the races on the Setting page."
+    },
+    {
+      "key": "class",
+      "label": "Class",
+      "type": "choice",
+      "section": "Adventurer",
+      "options": ["Warrior", "Knight", "Mage", "Healer", "Rogue", "Ranger", "Bard", "Other"],
+      "otherOption": "Other"
+    },
+    {
+      "key": "adventurer_rank",
+      "label": "Adventurer rank",
+      "type": "pick",
+      "from": "adventurer_ranks",
+      "hideWhenEmpty": true,
+      "section": "Adventurer"
+    },
+    { "key": "faction", "label": "Faction or kingdom", "type": "text", "section": "Adventurer" },
+    {
+      "key": "magic_affinity",
+      "label": "Magic affinity",
+      "type": "choice",
+      "section": "Adventurer",
+      "options": ["None", "Fire", "Water", "Earth", "Air", "Light", "Shadow", "Arcane"]
+    },
+    {
+      "key": "abilities",
+      "label": "Abilities and spells",
+      "type": "list",
+      "section": "Adventurer",
+      "hint": "One per line."
+    },
+    { "key": "equipment", "label": "Equipment", "type": "list", "section": "Adventurer", "hint": "One per line." },
+    { "key": "inventory", "label": "Inventory", "type": "list", "section": "Adventurer", "hint": "One per line." }
+  ],
+  "settingDefaults": { "tone": ["Hot-blooded"] },
+  "rules": { "mainCharacterRequired": ["class"], "defaultAge": 20 },
+  "imageStyle": "Classic fantasy oil painting with rich colour, dramatic light and detailed armour, cloth and landscape, like a painted fantasy book cover.",
+  "prompt": [
+    "This is a Western-style fantasy novel. Never use cultivation words or ideas (qi, meridians, sects, dao, cultivation realms), also when the novel is written in Chinese.",
+    "Magic follows the setting's magic system and always has its cost; how often it appears matches how common magic is in the setting.",
+    "Each race has its own culture, customs and way of speaking. Factions and kingdoms pursue their own interests.",
+    "Spells, abilities and magic items keep their limits once established. Power grows at the pace the setting's speed of power growth describes.",
+    "If the setting has adventurer ranks, characters rise one rank at a time and only through deeds; never skip ranks or invent ranks outside the list.",
+    "Match the world danger and character mortality in the setting."
+  ]
+}

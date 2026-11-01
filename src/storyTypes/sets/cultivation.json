@@ -1,0 +1,519 @@
+[
+  {
+    "id": "nine-peaks",
+    "values": { "tone": ["Hot-blooded"], "world_cruelty": 3, "character_mortality": "Sometimes", "power_growth": "Steady" },
+    "main": { "gender": "Male", "age": 18, "moral_alignment": 2, "charisma": 6, "spiritual_root": "Lightning" },
+    "text": {
+      "en": {
+        "values": {
+          "rank_ladder": [
+            { "name": "Mortal", "stages": [] },
+            { "name": "Qi Refining", "stages": ["Early", "Middle", "Late", "Peak"] },
+            { "name": "Foundation Establishment", "stages": ["Early", "Middle", "Late", "Peak"] },
+            { "name": "Core Formation", "stages": ["Early", "Middle", "Late", "Peak"] },
+            { "name": "Nascent Soul", "stages": ["Early", "Middle", "Late", "Peak"] },
+            { "name": "Spirit Severing", "stages": ["Early", "Middle", "Late", "Peak"] },
+            { "name": "Dao Seeking", "stages": ["Early", "Middle", "Late", "Peak"] },
+            { "name": "Immortal Ascension", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "Azure Cloud Sect: a proud sword sect on the highest peak, guarding the eastern pass.",
+            "Blood Lotus Valley: a demonic sect that trades in forbidden techniques.",
+            "The Lin Clan: an old family whose fortunes are fading."
+          ],
+          "main_character_difficulties": "Born with sealed meridians into a fading clan, the main character is mocked by peers, owed nothing by the sects, and hunted by an enemy who wants a secret they do not yet know they carry."
+        },
+        "background": "Nine great peaks float above an endless sea of clouds, and spiritual qi pours down from them like rain. The strong rule and the weak serve: sects claim the peaks, clans fight over the valleys, and mortals farm the land below. Ten years ago a heavenly tribulation shattered the ninth peak, scattering its treasures across the world and waking things that should have stayed asleep. Now every sect is racing to claim what fell.",
+        "main": {
+          "name": "Lin Feng",
+          "personality_traits": ["Stubborn", "Loyal", "Quick to anger"],
+          "goals_and_fears": "Wants to restore the Lin Clan's name and learn who sealed his meridians. Fears becoming as ruthless as the people who looked down on him.",
+          "speech_style": "Blunt and short; polite only to elders he respects",
+          "appearance": "Lean and wiry, of middle height; sharp dark eyes under thick brows; black hair tied up with a plain cord; a faded grey cotton robe with patched sleeves and a cracked jade pendant at his neck.",
+          "cultivation_rank": "Qi Refining, Early",
+          "sect": "The Lin Clan",
+          "special_ability": "Can see the flow of qi in people and objects, including the weak points of techniques and seals.",
+          "sacred_items": ["A cracked jade pendant left by his mother"],
+          "techniques": ["Lin Clan Thunder Palm, first form"],
+          "inventory": ["Three low-grade spirit stones", "A worn iron sword"],
+          "location": "The Lin Clan estate, at the foot of the eastern pass",
+          "condition": "Healthy"
+        },
+        "mainBackground": "The youngest son of a fading branch of the Lin Clan. His meridians were found sealed when he was six, and for ten years he was the clan's favourite joke. On the night the ninth peak shattered, his mother's jade pendant cracked and the seal on his meridians began to break. Since then he has seen threads of qi that no one else can see, and he has told no one.",
+        "names": {
+          "male": ["Lin Xiao", "Chu Tianhe", "Mo Qingyun", "Han Li", "Gu Changfeng", "Xiao Yan", "Ye Wuchen", "Qin Mu", "Lu Xuanji", "Fang Han"],
+          "female": ["Su Lingxue", "Liu Ruyan", "Bai Qingyi", "Yun Shang", "Xia Ningshuang", "Mu Wanqing", "Jiang Yue", "Lan Xin", "Hua Yuyan", "Shen Ruoxi"]
+        }
+      },
+      "zh-Hans": {
+        "values": {
+          "rank_ladder": [
+            { "name": "凡人", "stages": [] },
+            { "name": "炼气", "stages": ["初期", "中期", "后期", "巅峰"] },
+            { "name": "筑基", "stages": ["初期", "中期", "后期", "巅峰"] },
+            { "name": "结丹", "stages": ["初期", "中期", "后期", "巅峰"] },
+            { "name": "元婴", "stages": ["初期", "中期", "后期", "巅峰"] },
+            { "name": "化神", "stages": ["初期", "中期", "后期", "巅峰"] },
+            { "name": "问道", "stages": ["初期", "中期", "后期", "巅峰"] },
+            { "name": "飞升", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "青云剑宗：盘踞最高峰的剑修大宗，镇守东关，门人个个心高气傲。",
+            "血莲谷：贩卖禁术的魔道宗门，行事不择手段。",
+            "林家：传承数百年的老世家，如今家道中落。"
+          ],
+          "main_character_difficulties": "主角生来经脉被封，出身没落世家，受同辈嘲笑，各大宗门都不把他放在眼里；暗中还有仇家在追查他身上一个连他自己都不知道的秘密。"
+        },
+        "background": "九座巨峰悬浮在无边云海之上，灵气如雨般从峰顶倾泻而下。强者为尊，弱者为奴：宗门占据山峰，世家争夺山谷，凡人在山下耕田度日。十年前一场天劫劈碎了第九峰，峰上的宝物散落人间，也惊醒了一些本该永远沉睡的东西。如今各大宗门都在争抢坠落之物。",
+        "main": {
+          "name": "林峰",
+          "personality_traits": ["倔强", "重情义", "脾气火爆"],
+          "goals_and_fears": "想重振林家声威，查出是谁封了他的经脉。最怕自己变成当年那些看不起他的人一样冷酷无情。",
+          "speech_style": "说话直来直去，惜字如金；只对敬重的长辈客气",
+          "appearance": "身形精瘦，中等个子；浓眉下一双锐利的黑眼睛；黑发用一根素绳束起；一身洗得发白的灰布长衫，袖口打着补丁，颈间挂着一块裂了纹的玉佩。",
+          "cultivation_rank": "炼气, 初期",
+          "sect": "林家",
+          "special_ability": "能看见人与物体内灵气的流动，连功法和封印的破绽都看得一清二楚。",
+          "sacred_items": ["母亲留下的一块裂开的玉佩"],
+          "techniques": ["林家奔雷掌·第一式"],
+          "inventory": ["三块下品灵石", "一把旧铁剑"],
+          "location": "东关山脚下的林家大宅",
+          "condition": "身体健康"
+        },
+        "mainBackground": "林家没落旁支的小儿子。六岁那年被查出经脉被封，此后十年一直是全族的笑柄。第九峰碎裂的那一夜，母亲留下的玉佩裂开了，他经脉上的封印也开始松动。从那以后，他能看见别人看不见的灵气丝线，却从没对任何人说过。",
+        "names": {
+          "male": ["林啸", "楚天河", "墨青云", "韩立", "顾长风", "萧炎", "叶无尘", "秦牧", "陆玄机", "方寒"],
+          "female": ["苏凌雪", "柳如烟", "白青衣", "云裳", "夏凝霜", "慕婉清", "江月", "兰心", "花语嫣", "沈若曦"]
+        }
+      },
+      "zh-Hant": {
+        "values": {
+          "rank_ladder": [
+            { "name": "凡人", "stages": [] },
+            { "name": "煉氣", "stages": ["初期", "中期", "後期", "巔峰"] },
+            { "name": "築基", "stages": ["初期", "中期", "後期", "巔峰"] },
+            { "name": "結丹", "stages": ["初期", "中期", "後期", "巔峰"] },
+            { "name": "元嬰", "stages": ["初期", "中期", "後期", "巔峰"] },
+            { "name": "化神", "stages": ["初期", "中期", "後期", "巔峰"] },
+            { "name": "問道", "stages": ["初期", "中期", "後期", "巔峰"] },
+            { "name": "飛昇", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "青雲劍宗：盤踞最高峰的劍修大宗，鎮守東關，門人個個心高氣傲。",
+            "血蓮谷：販賣禁術的魔道宗門，行事不擇手段。",
+            "林家：傳承數百年的老世家，如今家道中落。"
+          ],
+          "main_character_difficulties": "主角生來經脈被封，出身沒落世家，受同輩嘲笑，各大宗門都不把他放在眼裡；暗中還有仇家在追查他身上一個連他自己都不知道的祕密。"
+        },
+        "background": "九座巨峰懸浮在無邊雲海之上，靈氣如雨般從峰頂傾瀉而下。強者為尊，弱者為奴：宗門佔據山峰，世家爭奪山谷，凡人在山下耕田度日。十年前一場天劫劈碎了第九峰，峰上的寶物散落人間，也驚醒了一些本該永遠沉睡的東西。如今各大宗門都在爭搶墜落之物。",
+        "main": {
+          "name": "林峰",
+          "personality_traits": ["倔強", "重情義", "脾氣火爆"],
+          "goals_and_fears": "想重振林家聲威，查出是誰封了他的經脈。最怕自己變成當年那些看不起他的人一樣冷酷無情。",
+          "speech_style": "說話直來直往，惜字如金；只對敬重的長輩客氣",
+          "appearance": "身形精瘦，中等個子；濃眉下一雙銳利的黑眼睛；黑髮用一根素繩束起；一身洗得發白的灰布長衫，袖口打著補丁，頸間掛著一塊裂了紋的玉佩。",
+          "cultivation_rank": "煉氣, 初期",
+          "sect": "林家",
+          "special_ability": "能看見人與物體內靈氣的流動，連功法和封印的破綻都看得一清二楚。",
+          "sacred_items": ["母親留下的一塊裂開的玉珮"],
+          "techniques": ["林家奔雷掌・第一式"],
+          "inventory": ["三塊下品靈石", "一把舊鐵劍"],
+          "location": "東關山腳下的林家大宅",
+          "condition": "身體健康"
+        },
+        "mainBackground": "林家沒落旁支的小兒子。六歲那年被查出經脈被封，此後十年一直是全族的笑柄。第九峰碎裂的那一夜，母親留下的玉珮裂開了，他經脈上的封印也開始鬆動。從那以後，他能看見別人看不見的靈氣絲線，卻從沒對任何人說過。",
+        "names": {
+          "male": ["林嘯", "楚天河", "墨青雲", "韓立", "顧長風", "蕭炎", "葉無塵", "秦牧", "陸玄機", "方寒"],
+          "female": ["蘇凌雪", "柳如煙", "白青衣", "雲裳", "夏凝霜", "慕婉清", "江月", "蘭心", "花語嫣", "沈若曦"]
+        }
+      }
+    }
+  },
+  {
+    "id": "misty-waters",
+    "values": { "tone": ["Dark"], "world_cruelty": 4, "character_mortality": "Often", "power_growth": "Slow" },
+    "main": { "gender": "Female", "age": 19, "moral_alignment": 3, "charisma": 5, "spiritual_root": "Water" },
+    "text": {
+      "en": {
+        "values": {
+          "rank_ladder": [
+            { "name": "Body Tempering", "stages": ["First Layer", "Second Layer", "Third Layer"] },
+            { "name": "Meridian Opening", "stages": ["Early", "Middle", "Late"] },
+            { "name": "Golden Core", "stages": ["Early", "Middle", "Late"] },
+            { "name": "Soul Formation", "stages": ["Early", "Middle", "Late"] },
+            { "name": "Void Refinement", "stages": ["Early", "Middle", "Late"] },
+            { "name": "Tribulation Crossing", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "Mirror Lake Pavilion: a sect of women sword cultivators who rule the lake and its tolls.",
+            "The Ferrymen's Guild: smugglers who know every hidden channel and sell secrets to all sides.",
+            "Hall of Drowned Lanterns: a sect that cultivates with the souls of the drowned.",
+            "The Prefect's Court: mortal officials who pretend to rule and quietly pay the sects."
+          ],
+          "main_character_difficulties": "A ferry girl with no sect and no teacher, the main character carries a sword bone that every sect would kill to own. One mistake and she is a resource to be harvested, not a person."
+        },
+        "background": "In the south, a thousand rivers braid into the Misty Waters: a land of reed marshes, stilt villages and water towns where the fog never fully lifts. The sects here do not live on mountains; they live behind water gates and in pavilions on the lakes, and they rule through debts, tolls and fear. Every autumn the mist thickens, lanterns drift on the water by themselves, and people vanish. Everyone pretends not to notice.",
+        "main": {
+          "name": "Su Wanqing",
+          "personality_traits": ["Watchful", "Patient", "Secretly proud"],
+          "goals_and_fears": "Wants to find out who drowned her father and why he hid a sword bone inside her as a child. Fears being caught and taken apart for it.",
+          "speech_style": "Soft and polite on the surface, sharp underneath; says less than she knows",
+          "appearance": "Slender, with a calm oval face and quiet grey-brown eyes; long black hair in a single braid; sun-browned hands; a pale blue ferrywoman's tunic and trousers rolled to the knee, a bamboo hat on her back.",
+          "cultivation_rank": "Body Tempering, Second Layer",
+          "sect": "None (ferry girl on the Willow Crossing)",
+          "special_ability": "A sword bone hidden in her spine: any blade she holds learns her intent, and in water she can sense every living thing within a hundred paces.",
+          "sacred_items": ["Her father's bamboo punting pole, heavier than it looks"],
+          "techniques": ["Reed Step, a light-footed movement over water"],
+          "inventory": ["A small boat", "A handful of copper coins", "A fishing knife"],
+          "location": "Willow Crossing, a ferry landing at the edge of the marshes",
+          "condition": "Healthy, but her back aches when the mist is thick"
+        },
+        "mainBackground": "Su Wanqing grew up poling a ferry across the Willow Crossing with her father, who knew too much about the sects and never explained why. Three years ago his boat came back empty under a drifting lantern. Since then she has kept the ferry running, listened to every passenger, and practised the one movement technique he taught her, waiting for someone to come asking about him.",
+        "names": {
+          "male": ["Shen Yan", "Lu Zhou", "Wen Qinghe", "Pei Yu", "Song Lan", "Xie Chi", "Zhou Ming", "Yan Shu", "Jiang Zhi", "Cen Mo"],
+          "female": ["Ling Bo", "Lian Yi", "Xiao Ou", "Ruan Xiang", "Qiu Shui", "Wei Ying", "Lu Wan", "Tang Yue", "Ye Zhu", "Hua Rong"]
+        }
+      },
+      "zh-Hans": {
+        "values": {
+          "rank_ladder": [
+            { "name": "锻体", "stages": ["一重", "二重", "三重"] },
+            { "name": "开脉", "stages": ["初期", "中期", "后期"] },
+            { "name": "金丹", "stages": ["初期", "中期", "后期"] },
+            { "name": "凝魂", "stages": ["初期", "中期", "后期"] },
+            { "name": "炼虚", "stages": ["初期", "中期", "后期"] },
+            { "name": "渡劫", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "镜湖阁：女剑修的宗门，掌管整片湖面与过路的税钱。",
+            "摆渡帮：熟悉每一条暗河的私盐贩子，向各方兜售情报。",
+            "溺灯堂：拿溺死之人的魂魄修炼的邪门宗派。",
+            "知府衙门：表面上治理一方的凡人官府，私下却按时给宗门上供。"
+          ],
+          "main_character_difficulties": "主角是个无门无派、无师无承的摆渡女，身上藏着一根各大宗门都愿意为之杀人的剑骨。一步走错，她就不再是人，而是一份等着被瓜分的资源。"
+        },
+        "background": "南方千条河流交织成烟水泽：芦苇荡、吊脚楼和水乡小镇散落其间，雾气终年不散。这里的宗门不住山上，而是住在水闸背后、湖心楼阁之中，靠债务、税钱和恐惧统治一方。每到秋天雾气变浓，水面上会有灯笼自己漂过来，接着就有人失踪。大家都装作没看见。",
+        "main": {
+          "name": "苏婉清",
+          "personality_traits": ["警觉", "沉得住气", "骨子里骄傲"],
+          "goals_and_fears": "想查清是谁淹死了父亲，又为什么在她小时候把一根剑骨藏进她体内。最怕被人发现，被拆骨取宝。",
+          "speech_style": "表面轻声细语、客客气气，话里却藏着锋芒；知道的永远比说出口的多",
+          "appearance": "身材纤细，鹅蛋脸，神情沉静，一双安静的灰褐色眼睛；乌黑长发编成一条辫子；双手晒得微黑；一身淡蓝色船家短衣，裤腿卷到膝盖，背后挂着一顶斗笠。",
+          "cultivation_rank": "锻体, 二重",
+          "sect": "无（柳渡口的摆渡女）",
+          "special_ability": "脊骨里藏着一根剑骨：她握住的任何兵刃都能领会她的心意；在水中，百步之内的一切活物她都感应得到。",
+          "sacred_items": ["父亲留下的竹篙，比看上去重得多"],
+          "techniques": ["踏苇步，在水面上轻身疾行的身法"],
+          "inventory": ["一条小船", "一把铜钱", "一把鱼刀"],
+          "location": "柳渡口，芦苇荡边上的一处渡头",
+          "condition": "身体无恙，只是雾浓时背会隐隐作痛"
+        },
+        "mainBackground": "苏婉清从小跟着父亲在柳渡口撑船。父亲对各大宗门知道得太多，却从不解释原因。三年前，他的船在一盏漂流的灯笼下空着漂了回来。从那以后，她独自撑着渡船，留意每一位客人的话，日日练习父亲教她的唯一一门身法，等着有人上门来打听他的事。",
+        "names": {
+          "male": ["沈砚", "陆舟", "温清和", "裴玉", "宋岚", "谢迟", "周明", "晏书", "江止", "岑墨"],
+          "female": ["凌波", "莲衣", "小藕", "阮湘", "秋水", "魏缨", "陆菀", "唐月", "叶竹", "花容"]
+        }
+      },
+      "zh-Hant": {
+        "values": {
+          "rank_ladder": [
+            { "name": "鍛體", "stages": ["一重", "二重", "三重"] },
+            { "name": "開脈", "stages": ["初期", "中期", "後期"] },
+            { "name": "金丹", "stages": ["初期", "中期", "後期"] },
+            { "name": "凝魂", "stages": ["初期", "中期", "後期"] },
+            { "name": "煉虛", "stages": ["初期", "中期", "後期"] },
+            { "name": "渡劫", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "鏡湖閣：女劍修的宗門，掌管整片湖面與過路的稅錢。",
+            "擺渡幫：熟悉每一條暗河的私鹽販子，向各方兜售情報。",
+            "溺燈堂：拿溺死之人的魂魄修煉的邪門宗派。",
+            "知府衙門：表面上治理一方的凡人官府，私下卻按時給宗門上供。"
+          ],
+          "main_character_difficulties": "主角是個無門無派、無師無承的擺渡女，身上藏著一根各大宗門都願意為之殺人的劍骨。一步走錯，她就不再是人，而是一份等著被瓜分的資源。"
+        },
+        "background": "南方千條河流交織成煙水澤：蘆葦蕩、吊腳樓和水鄉小鎮散落其間，霧氣終年不散。這裡的宗門不住山上，而是住在水閘背後、湖心樓閣之中，靠債務、稅錢和恐懼統治一方。每到秋天霧氣變濃，水面上會有燈籠自己漂過來，接著就有人失蹤。大家都裝作沒看見。",
+        "main": {
+          "name": "蘇婉清",
+          "personality_traits": ["警覺", "沉得住氣", "骨子裡驕傲"],
+          "goals_and_fears": "想查清是誰淹死了父親，又為什麼在她小時候把一根劍骨藏進她體內。最怕被人發現，被拆骨取寶。",
+          "speech_style": "表面輕聲細語、客客氣氣，話裡卻藏著鋒芒；知道的永遠比說出口的多",
+          "appearance": "身材纖細，鵝蛋臉，神情沉靜，一雙安靜的灰褐色眼睛；烏黑長髮編成一條辮子；雙手曬得微黑；一身淡藍色船家短衣，褲腿捲到膝蓋，背後掛著一頂斗笠。",
+          "cultivation_rank": "鍛體, 二重",
+          "sect": "無（柳渡口的擺渡女）",
+          "special_ability": "脊骨裡藏著一根劍骨：她握住的任何兵刃都能領會她的心意；在水中，百步之內的一切活物她都感應得到。",
+          "sacred_items": ["父親留下的竹篙，比看上去重得多"],
+          "techniques": ["踏葦步，在水面上輕身疾行的身法"],
+          "inventory": ["一條小船", "一把銅錢", "一把魚刀"],
+          "location": "柳渡口，蘆葦蕩邊上的一處渡頭",
+          "condition": "身體無恙，只是霧濃時背會隱隱作痛"
+        },
+        "mainBackground": "蘇婉清從小跟著父親在柳渡口撐船。父親對各大宗門知道得太多，卻從不解釋原因。三年前，他的船在一盞漂流的燈籠下空著漂了回來。從那以後，她獨自撐著渡船，留意每一位客人的話，日日練習父親教她的唯一一門身法，等著有人上門來打聽他的事。",
+        "names": {
+          "male": ["沈硯", "陸舟", "溫清和", "裴玉", "宋嵐", "謝遲", "周明", "晏書", "江止", "岑墨"],
+          "female": ["凌波", "蓮衣", "小藕", "阮湘", "秋水", "魏纓", "陸菀", "唐月", "葉竹", "花容"]
+        }
+      }
+    }
+  },
+  {
+    "id": "burning-sands",
+    "values": { "tone": ["Hot-blooded", "Humorous"], "world_cruelty": 3, "character_mortality": "Sometimes", "power_growth": "Fast" },
+    "main": { "gender": "Male", "age": 20, "moral_alignment": 3, "charisma": 8, "spiritual_root": "Fire" },
+    "text": {
+      "en": {
+        "values": {
+          "rank_ladder": [
+            { "name": "Mortal", "stages": [] },
+            { "name": "Qi Gathering", "stages": ["1st Star", "2nd Star", "3rd Star", "4th Star", "5th Star"] },
+            { "name": "Spirit Sea", "stages": ["Early", "Middle", "Late"] },
+            { "name": "Golden Core", "stages": ["Early", "Middle", "Late"] },
+            { "name": "Divine Soul", "stages": ["Early", "Middle", "Late"] },
+            { "name": "Heavenly Lord", "stages": [] },
+            { "name": "Immortal", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "Sun-Scorched Palace: the desert's greatest sect, rulers of the only great oasis.",
+            "The Camel Bell Caravan: merchants and treasure hunters who will sell anything, including you.",
+            "Sand Wolf Tribes: nomad cultivators who ride beasts and honour duels above all else.",
+            "Remnants of the Jade Empire: a hidden order guarding the ruins of a fallen immortal empire."
+          ],
+          "main_character_difficulties": "A ruin scavenger with a big mouth and no background, the main character has just woken an ancient spirit in a broken ring, and now three factions want both of them, alive or otherwise."
+        },
+        "background": "West of the Jade Gate lies the Burning Sands, a desert that swallowed an immortal empire ten thousand years ago. Its sandstorms uncover ruins full of lost techniques, spirit beasts and traps that still work. Oasis cities live on the trade in what the scavengers dig up, and the sects take their share by force. Fortunes are made and lost in a single night, and a nobody with luck and nerve can rise faster here than anywhere else.",
+        "main": {
+          "name": "Zhao Yan",
+          "personality_traits": ["Cheeky", "Fearless", "Greedy but fair"],
+          "goals_and_fears": "Wants to get rich, then strong enough that nobody can take it back. Underneath, wants to find the mother who left him at a caravan inn. Fears being ordinary.",
+          "speech_style": "Fast, joking, always bargaining; turns serious only when a friend is in danger",
+          "appearance": "Tall and broad-shouldered, skin tanned dark by the desert; a quick grin and amber eyes; short, wind-tousled black hair; a sand-coloured travelling coat over a red sash, a scarf around his neck against the dust.",
+          "cultivation_rank": "Qi Gathering, 1st Star",
+          "sect": "None (licensed scavenger of the Camel Bell Caravan)",
+          "special_ability": "A grumpy ancient spirit lives in his broken ring and can read the old empire's runes, though it only helps when it feels like it.",
+          "sacred_items": ["A broken bronze ring holding an ancient spirit"],
+          "techniques": ["Desert Fire Fist, a crude style learned from caravan guards"],
+          "inventory": ["A water skin", "A shovel", "A map of ruins with half the names wrong"],
+          "location": "Redstone Oasis, a trading town at the edge of the deep desert",
+          "condition": "Sunburnt, hungry, otherwise fine"
+        },
+        "mainBackground": "Left at a caravan inn as a baby, Zhao Yan grew up running errands for merchants and digging in ruins for scraps. Last week a sandstorm opened a tomb under Redstone Oasis. He went in alone, came out with a broken ring, and has heard a sarcastic old voice in his head ever since. The voice says it was once a god. Zhao Yan says it owes him rent.",
+        "names": {
+          "male": ["Tie Mu", "Ashan", "Lei Hong", "Ma Feng", "Qi Yuan", "Shi Kuang", "Batu", "Lang Ye", "Yu Che", "Huo Ting"],
+          "female": ["Alina", "Sha Yue", "Yun Ji", "Hong Ling", "Dai Wei", "Gulina", "Mo Li", "Jin Huan", "Su He", "Yan Zhi"]
+        }
+      },
+      "zh-Hans": {
+        "values": {
+          "rank_ladder": [
+            { "name": "凡人", "stages": [] },
+            { "name": "聚气", "stages": ["一星", "二星", "三星", "四星", "五星"] },
+            { "name": "灵海", "stages": ["初期", "中期", "后期"] },
+            { "name": "金丹", "stages": ["初期", "中期", "后期"] },
+            { "name": "神魂", "stages": ["初期", "中期", "后期"] },
+            { "name": "天尊", "stages": [] },
+            { "name": "仙人", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "烈阳宫：大漠第一宗门，霸占着唯一一片大绿洲。",
+            "驼铃商队：商人兼寻宝人，什么都卖，包括你。",
+            "沙狼部落：骑着妖兽的游牧修士，把决斗看得比命还重。",
+            "玉朝遗族：守护上古仙朝遗迹的隐秘组织。"
+          ],
+          "main_character_difficulties": "主角是个嘴贫、没背景的遗迹拾荒者，刚在一枚破戒指里唤醒了一缕上古残魂。现在三方势力都想把他俩弄到手，死活不论。"
+        },
+        "background": "玉门关以西是焚沙大漠，一万年前它吞没了一座仙朝。风暴卷开沙丘，就会露出满是失传功法、灵兽和仍在运转的机关的遗迹。绿洲城镇靠拾荒者挖出来的东西做买卖，宗门则凭拳头抽成。在这里，一夜之间就能暴富，也能一夜之间倾家荡产；只要有运气、有胆量，无名小卒比在哪儿都爬得快。",
+        "main": {
+          "name": "赵炎",
+          "personality_traits": ["嘴贫", "天不怕地不怕", "贪财但讲规矩"],
+          "goals_and_fears": "想发大财，再强大到没人能把钱抢回去。心底里，想找到当年把他丢在驼队客栈的母亲。最怕一辈子平平无奇。",
+          "speech_style": "语速快，爱开玩笑，张口就讨价还价；只有朋友遇险时才正经起来",
+          "appearance": "高个子，宽肩膀，皮肤被大漠晒得黝黑；笑起来很快，一双琥珀色的眼睛；黑色短发被风吹得乱糟糟；沙色旅行外袍里系着一条红腰带，脖子上围着挡沙的围巾。",
+          "cultivation_rank": "聚气, 一星",
+          "sect": "无（驼铃商队的持证拾荒者）",
+          "special_ability": "破戒指里住着一个脾气很差的上古残魂，认得古仙朝的符文，不过只在它高兴时才肯帮忙。",
+          "sacred_items": ["一枚住着上古残魂的破铜戒指"],
+          "techniques": ["大漠火拳，跟商队护卫学的粗浅拳法"],
+          "inventory": ["一个水囊", "一把铲子", "一张一半地名都标错的遗迹地图"],
+          "location": "赤石绿洲，深漠边缘的贸易小镇",
+          "condition": "晒伤，饿着肚子，别的都还好"
+        },
+        "mainBackground": "赵炎还在襁褓里就被丢在驼队客栈，从小给商人跑腿，在遗迹里刨点零碎糊口。上周一场沙暴在赤石绿洲底下刮开了一座古墓。他独自钻了进去，出来时手上多了一枚破戒指，从此脑子里就多了一个尖酸刻薄的老声音。那声音说自己曾经是神。赵炎说它欠他房租。",
+        "names": {
+          "male": ["铁木", "阿山", "雷洪", "马烽", "齐远", "石狂", "巴图", "狼烨", "玉澈", "霍霆"],
+          "female": ["阿丽娜", "沙月", "云姬", "红绫", "黛薇", "古丽娜", "莫离", "金环", "苏禾", "胭脂"]
+        }
+      },
+      "zh-Hant": {
+        "values": {
+          "rank_ladder": [
+            { "name": "凡人", "stages": [] },
+            { "name": "聚氣", "stages": ["一星", "二星", "三星", "四星", "五星"] },
+            { "name": "靈海", "stages": ["初期", "中期", "後期"] },
+            { "name": "金丹", "stages": ["初期", "中期", "後期"] },
+            { "name": "神魂", "stages": ["初期", "中期", "後期"] },
+            { "name": "天尊", "stages": [] },
+            { "name": "仙人", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "烈陽宮：大漠第一宗門，霸佔著唯一一片大綠洲。",
+            "駝鈴商隊：商人兼尋寶人，什麼都賣，包括你。",
+            "沙狼部落：騎著妖獸的遊牧修士，把決鬥看得比命還重。",
+            "玉朝遺族：守護上古仙朝遺跡的隱祕組織。"
+          ],
+          "main_character_difficulties": "主角是個嘴貧、沒背景的遺跡拾荒者，剛在一枚破戒指裡喚醒了一縷上古殘魂。現在三方勢力都想把他倆弄到手，死活不論。"
+        },
+        "background": "玉門關以西是焚沙大漠，一萬年前它吞沒了一座仙朝。風暴捲開沙丘，就會露出滿是失傳功法、靈獸和仍在運轉的機關的遺跡。綠洲城鎮靠拾荒者挖出來的東西做買賣，宗門則憑拳頭抽成。在這裡，一夜之間就能暴富，也能一夜之間傾家蕩產；只要有運氣、有膽量，無名小卒比在哪兒都爬得快。",
+        "main": {
+          "name": "趙炎",
+          "personality_traits": ["嘴貧", "天不怕地不怕", "貪財但講規矩"],
+          "goals_and_fears": "想發大財，再強大到沒人能把錢搶回去。心底裡，想找到當年把他丟在駝隊客棧的母親。最怕一輩子平平無奇。",
+          "speech_style": "語速快，愛開玩笑，張口就討價還價；只有朋友遇險時才正經起來",
+          "appearance": "高個子，寬肩膀，皮膚被大漠曬得黝黑；笑起來很快，一雙琥珀色的眼睛；黑色短髮被風吹得亂糟糟；沙色旅行外袍裡繫著一條紅腰帶，脖子上圍著擋沙的圍巾。",
+          "cultivation_rank": "聚氣, 一星",
+          "sect": "無（駝鈴商隊的持證拾荒者）",
+          "special_ability": "破戒指裡住著一個脾氣很差的上古殘魂，認得古仙朝的符文，不過只在它高興時才肯幫忙。",
+          "sacred_items": ["一枚住著上古殘魂的破銅戒指"],
+          "techniques": ["大漠火拳，跟商隊護衛學的粗淺拳法"],
+          "inventory": ["一個水囊", "一把鏟子", "一張一半地名都標錯的遺跡地圖"],
+          "location": "赤石綠洲，深漠邊緣的貿易小鎮",
+          "condition": "曬傷，餓著肚子，別的都還好"
+        },
+        "mainBackground": "趙炎還在襁褓裡就被丟在駝隊客棧，從小給商人跑腿，在遺跡裡刨點零碎餬口。上週一場沙暴在赤石綠洲底下颳開了一座古墓。他獨自鑽了進去，出來時手上多了一枚破戒指，從此腦子裡就多了一個尖酸刻薄的老聲音。那聲音說自己曾經是神。趙炎說它欠他房租。",
+        "names": {
+          "male": ["鐵木", "阿山", "雷洪", "馬烽", "齊遠", "石狂", "巴圖", "狼燁", "玉澈", "霍霆"],
+          "female": ["阿麗娜", "沙月", "雲姬", "紅綾", "黛薇", "古麗娜", "莫離", "金環", "蘇禾", "胭脂"]
+        }
+      }
+    }
+  },
+  {
+    "id": "sky-academy",
+    "values": { "tone": ["Humorous", "Happy"], "world_cruelty": 2, "character_mortality": "Rarely", "power_growth": "Steady" },
+    "main": { "gender": "Female", "age": 17, "moral_alignment": 1, "charisma": 7, "spiritual_root": "Wood" },
+    "text": {
+      "en": {
+        "values": {
+          "rank_ladder": [
+            { "name": "Novice", "stages": [] },
+            { "name": "Qi Refining", "stages": ["Early", "Middle", "Late"] },
+            { "name": "Foundation Establishment", "stages": ["Early", "Middle", "Late"] },
+            { "name": "Core Formation", "stages": ["Early", "Middle", "Late"] },
+            { "name": "Nascent Soul", "stages": ["Early", "Middle", "Late"] },
+            { "name": "Deity Transformation", "stages": [] },
+            { "name": "Ascension", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "The Heavenly Academy: the floating city's great school, where every sect sends its young.",
+            "Starfall House: the richest student house, all noble heirs and polished manners.",
+            "Ironwood House: the poorest house, known for brawls, alchemy accidents and loyalty.",
+            "The Kitchen Hall: cooks, servants and spirit-herb gardeners who see everything and are noticed by no one."
+          ],
+          "main_character_difficulties": "A kitchen helper with no talent on paper, the main character must pass the academy's trials while hiding the spirit pill she swallowed by accident, and three different teachers suspect something."
+        },
+        "background": "The Heavenly Academy floats on a city-sized island of jade above the clouds, tethered to the world by nine silver chains. Every sect sends its brightest youngsters here to train, compete and form alliances, and the student houses fight over ranking points as fiercely as any war. Duels are fought with rules, healers stand by, and the worst most students fear is failing the yearly trial. Below the polished halls, though, an old seal under the island is slowly waking.",
+        "main": {
+          "name": "Bai Xiaoyu",
+          "personality_traits": ["Cheerful", "Clumsy", "Kind to a fault"],
+          "goals_and_fears": "Wants to pass the trial and become a real disciple so her village never goes hungry again. Fears being sent home in disgrace, or found out and locked away.",
+          "speech_style": "Talks too fast when nervous; full of kitchen sayings and food comparisons",
+          "appearance": "Small and round-faced, with bright curious eyes and a few freckles; black hair in two buns; a plain white kitchen apron over a green servant's dress, sleeves tied back.",
+          "cultivation_rank": "Qi Refining, Early",
+          "sect": "The Kitchen Hall of the Heavenly Academy",
+          "special_ability": "The heavenly spirit pill she swallowed lets her absorb the qi of anything she cooks or eats, so her strength grows with every meal, along with her appetite.",
+          "sacred_items": ["A battered iron wok that once belonged to a famous chef"],
+          "techniques": ["Thousand-Cut Knife Work, kitchen skill turned fighting style"],
+          "inventory": ["A bag of spirit rice", "A recipe book full of notes", "Two steamed buns"],
+          "location": "The Kitchen Hall on the lowest terrace of the Heavenly Academy",
+          "condition": "Healthy, always a little hungry"
+        },
+        "mainBackground": "Bai Xiaoyu came to the floating city to work in the academy kitchens and send money home. During a banquet for visiting elders she tasted a sauce that was not sauce: it was a heavenly spirit pill, crushed by mistake into the master chef's pot. Overnight her untalented body woke up. Now she cooks by day, sneaks into lectures by night, and tries very hard not to glow when she eats.",
+        "names": {
+          "male": ["Lu Chenxi", "Gu Yunting", "Fang Xiaoshu", "Mo Jin", "Jiang Ziyu", "Qi Lin", "Song Bai", "Ye Fan", "Xu Mingyuan", "Tang Duo"],
+          "female": ["Ling Xiaoxiao", "Yu Qinghe", "Hua Lan", "Zhou Miaomiao", "Lin Yaoyao", "Qiao Xing", "Yun Duoduo", "Ning Shuang", "Liu Ying", "Mei Ruo"]
+        }
+      },
+      "zh-Hans": {
+        "values": {
+          "rank_ladder": [
+            { "name": "入门", "stages": [] },
+            { "name": "炼气", "stages": ["初期", "中期", "后期"] },
+            { "name": "筑基", "stages": ["初期", "中期", "后期"] },
+            { "name": "结丹", "stages": ["初期", "中期", "后期"] },
+            { "name": "元婴", "stages": ["初期", "中期", "后期"] },
+            { "name": "化神", "stages": [] },
+            { "name": "飞升", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "天元书院：浮空城里的大书院，各宗门都把年轻弟子送来这里。",
+            "星落院：最有钱的学舍，满是世家子弟，个个彬彬有礼。",
+            "铁木院：最穷的学舍，出了名的爱打架、炸丹炉，也最讲义气。",
+            "膳堂：厨子、杂役和灵药园丁的地方，什么都看在眼里，却没人注意他们。"
+          ],
+          "main_character_difficulties": "主角是个纸面上毫无天赋的膳堂帮工，得一边通过书院的试炼，一边藏好自己误吞下去的灵丹，偏偏已经有三位先生起了疑心。"
+        },
+        "background": "天元书院坐落在一座城池大小的浮空玉岛上，九条银链把它和大地系在一起。各宗门把最出色的少年送到这里修炼、比试、结盟，各学舍为了排名积分斗得不比打仗轻。决斗有规矩，旁边有医修守着，大多数学生最怕的不过是年终试炼不及格。可在光鲜的殿堂底下，岛下一道古老的封印正在慢慢苏醒。",
+        "main": {
+          "name": "白小鱼",
+          "personality_traits": ["开朗", "冒失", "心软得过头"],
+          "goals_and_fears": "想通过试炼成为正式弟子，让家乡的村子再也不挨饿。最怕被灰溜溜地赶回家，或者秘密败露被关起来。",
+          "speech_style": "一紧张就说个不停；满嘴厨房里的俗语，什么都爱拿吃的打比方",
+          "appearance": "个子小小，圆脸，一双好奇的亮眼睛，脸上有几颗雀斑；黑发梳成两个发髻；绿色仆役裙外系着一条素白围裙，袖子挽起绑好。",
+          "cultivation_rank": "炼气, 初期",
+          "sect": "天元书院膳堂",
+          "special_ability": "误吞的天灵丹让她能吸收自己做的、吃的一切食物里的灵气，每吃一顿饭就强一分，饭量也跟着长。",
+          "sacred_items": ["一口坑坑洼洼的铁锅，据说属于一位名厨"],
+          "techniques": ["千刀刀工，从厨艺练成的刀法"],
+          "inventory": ["一袋灵米", "一本写满批注的菜谱", "两个馒头"],
+          "location": "天元书院最低一层平台上的膳堂",
+          "condition": "身体健康，总是有点饿"
+        },
+        "mainBackground": "白小鱼来浮空城是为了在书院膳堂做工，好往家里寄钱。一次招待来访长老的宴席上，她尝了一口“酱汁”，那其实是一颗被误碾进主厨锅里的天灵丹。一夜之间，她这副毫无天赋的身子醒了过来。如今她白天做饭，晚上偷偷溜进讲堂听课，还得拼命忍住，别一吃东西就浑身发光。",
+        "names": {
+          "male": ["陆晨曦", "顾云庭", "方小树", "莫谨", "江子渝", "齐麟", "宋柏", "叶凡", "许明远", "唐多"],
+          "female": ["凌笑笑", "余清禾", "花岚", "周喵喵", "林瑶瑶", "乔星", "云朵朵", "宁霜", "柳莺", "梅若"]
+        }
+      },
+      "zh-Hant": {
+        "values": {
+          "rank_ladder": [
+            { "name": "入門", "stages": [] },
+            { "name": "煉氣", "stages": ["初期", "中期", "後期"] },
+            { "name": "築基", "stages": ["初期", "中期", "後期"] },
+            { "name": "結丹", "stages": ["初期", "中期", "後期"] },
+            { "name": "元嬰", "stages": ["初期", "中期", "後期"] },
+            { "name": "化神", "stages": [] },
+            { "name": "飛昇", "stages": [] }
+          ],
+          "sects_and_factions": [
+            "天元書院：浮空城裡的大書院，各宗門都把年輕弟子送來這裡。",
+            "星落院：最有錢的學舍，滿是世家子弟，個個彬彬有禮。",
+            "鐵木院：最窮的學舍，出了名的愛打架、炸丹爐，也最講義氣。",
+            "膳堂：廚子、雜役和靈藥園丁的地方，什麼都看在眼裡，卻沒人注意他們。"
+          ],
+          "main_character_difficulties": "主角是個紙面上毫無天賦的膳堂幫工，得一邊通過書院的試煉，一邊藏好自己誤吞下去的靈丹，偏偏已經有三位先生起了疑心。"
+        },
+        "background": "天元書院坐落在一座城池大小的浮空玉島上，九條銀鏈把它和大地繫在一起。各宗門把最出色的少年送到這裡修煉、比試、結盟，各學舍為了排名積分鬥得不比打仗輕。決鬥有規矩，旁邊有醫修守著，大多數學生最怕的不過是年終試煉不及格。可在光鮮的殿堂底下，島下一道古老的封印正在慢慢甦醒。",
+        "main": {
+          "name": "白小魚",
+          "personality_traits": ["開朗", "冒失", "心軟得過頭"],
+          "goals_and_fears": "想通過試煉成為正式弟子，讓家鄉的村子再也不挨餓。最怕被灰溜溜地趕回家，或者祕密敗露被關起來。",
+          "speech_style": "一緊張就說個不停；滿嘴廚房裡的俗語，什麼都愛拿吃的打比方",
+          "appearance": "個子小小，圓臉，一雙好奇的亮眼睛，臉上有幾顆雀斑；黑髮梳成兩個髮髻；綠色僕役裙外繫著一條素白圍裙，袖子挽起綁好。",
+          "cultivation_rank": "煉氣, 初期",
+          "sect": "天元書院膳堂",
+          "special_ability": "誤吞的天靈丹讓她能吸收自己做的、吃的一切食物裡的靈氣，每吃一頓飯就強一分，飯量也跟著長。",
+          "sacred_items": ["一口坑坑窪窪的鐵鍋，據說屬於一位名廚"],
+          "techniques": ["千刀刀工，從廚藝練成的刀法"],
+          "inventory": ["一袋靈米", "一本寫滿批註的菜譜", "兩個饅頭"],
+          "location": "天元書院最低一層平台上的膳堂",
+          "condition": "身體健康，總是有點餓"
+        },
+        "mainBackground": "白小魚來浮空城是為了在書院膳堂做工，好往家裡寄錢。一次招待來訪長老的宴席上，她嚐了一口「醬汁」，那其實是一顆被誤碾進主廚鍋裡的天靈丹。一夜之間，她這副毫無天賦的身子醒了過來。如今她白天做飯，晚上偷偷溜進講堂聽課，還得拚命忍住，別一吃東西就渾身發光。",
+        "names": {
+          "male": ["陸晨曦", "顧雲庭", "方小樹", "莫謹", "江子渝", "齊麟", "宋柏", "葉凡", "許明遠", "唐多"],
+          "female": ["凌笑笑", "余清禾", "花嵐", "周喵喵", "林瑤瑤", "喬星", "雲朵朵", "寧霜", "柳鶯", "梅若"]
+        }
+      }
+    }
+  }
+]

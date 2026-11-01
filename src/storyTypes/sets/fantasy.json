@@ -1,0 +1,504 @@
+[
+  {
+    "id": "fading-crown",
+    "values": { "tone": ["Hot-blooded"], "magic_commonness": "Uncommon", "world_danger": 3, "character_mortality": "Sometimes", "power_growth": "Steady" },
+    "main": { "gender": "Male", "age": 19, "moral_alignment": 2, "charisma": 6, "class": "Knight", "magic_affinity": "Light" },
+    "text": {
+      "en": {
+        "values": {
+          "races": [
+            "Humans: the most numerous race, ruling the river kingdoms.",
+            "Elves: long-lived forest folk who remember the old evil.",
+            "Dwarves: miners and smiths under the northern mountains.",
+            "Halflings: small, quiet farmers whom no one expects to be brave."
+          ],
+          "adventurer_ranks": ["Copper", "Iron", "Silver", "Gold", "Mithril"],
+          "magic_system": "Magic is drawn from the ley lines that run beneath the land. A spell borrows strength from the caster's own body: small spells tire, great ones can leave a mage bedridden for days or grey before their time.",
+          "factions": [
+            "The Kingdom of Aldmere: an old human realm whose king is dying without an heir.",
+            "The Silverwood: the last elven forest, closed to outsiders for a hundred years.",
+            "The Order of the Dawn: knights sworn to the crown, now split over the succession.",
+            "The Adventurers' Guild: hires out swords and spells to anyone who can pay."
+          ],
+          "main_character_difficulties": "A newly sworn knight of no great family, the main character is trusted by no faction, owed nothing by the court, and carries a sword that the returning darkness seems to recognise."
+        },
+        "background": "For three hundred years the Kingdom of Aldmere has kept the peace that the elves and dwarves won against the Shadow King. Now old King Edric lies dying with no heir, the great houses sharpen their knives, and in the north the watch fires have gone dark one by one. Travellers speak of wolves that walk like men and of a black tower rising again in the Ashen Waste. Few at court believe them. Those who do are quietly taking up their swords.",
+        "main": {
+          "name": "Aldric Vane",
+          "personality_traits": ["Honourable", "Earnest", "Slow to trust"],
+          "goals_and_fears": "Wants to prove that a knight of low birth can keep his oath better than any lord's son, and to learn why his sword glows near the Shadow King's creatures. Fears that his oath will one day ask him to do something wrong.",
+          "speech_style": "Formal and careful; plain-spoken with friends",
+          "appearance": "Broad and strong from the forge, with an open, honest face and steady blue eyes; short sandy-brown hair; dented steel plate over a blue surcoat, an old longsword at his hip.",
+          "race": "Humans",
+          "adventurer_rank": "Copper",
+          "faction": "The Order of the Dawn",
+          "abilities": ["Shield wall", "Prayer of the Dawn: a faint light that steadies allies"],
+          "equipment": ["An old longsword with runes no one can read", "A dented kite shield", "Chain mail"],
+          "inventory": ["Twelve silver pieces", "A letter of knighthood with a cracked seal"],
+          "location": "The royal city of Aldmere",
+          "condition": "Healthy"
+        },
+        "mainBackground": "The son of a blacksmith, knighted on the field after he held a bridge alone against raiders. The old knight who sponsored him left him a sword from the last war, wrapped in cloth, with a warning never to draw it in the dark. Last month he drew it in the dark, and it shone.",
+        "names": {
+          "male": ["Gareth", "Rowan", "Theron", "Cedric", "Bram", "Lucan"],
+          "female": ["Elara", "Isolde", "Maren", "Brienne", "Lyra", "Seraphine"]
+        }
+      },
+      "zh-Hans": {
+        "values": {
+          "races": [
+            "人类：人数最多的种族，统治着河谷诸王国。",
+            "精灵：长寿的森林居民，还记得那场古老的邪恶。",
+            "矮人：北方群山之下的矿工和铁匠。",
+            "半身人：个子矮小、安静的农夫，谁也想不到他们会勇敢。"
+          ],
+          "adventurer_ranks": ["铜级", "铁级", "银级", "金级", "秘银级"],
+          "magic_system": "魔法汲取自大地之下流淌的魔力脉络。每个咒语都要借用施法者自身的体力：小咒语让人疲惫，强大的咒语能让法师卧床数日，甚至早生白发。",
+          "factions": [
+            "奥德米尔王国：古老的人类王国，国王病重垂危，却没有继承人。",
+            "银木林：最后一片精灵森林，已对外封闭了一百年。",
+            "黎明骑士团：效忠王室的骑士，如今因王位继承问题分裂。",
+            "冒险者公会：把剑与魔法出租给任何付得起钱的人。"
+          ],
+          "main_character_difficulties": "主角是出身平凡、刚刚受封的骑士，没有任何派系信任他，宫廷也不欠他什么；他手中的剑，似乎被卷土重来的黑暗认了出来。"
+        },
+        "background": "三百年来，奥德米尔王国一直守护着精灵与矮人当年战胜暗影之王换来的和平。如今老国王埃德里克卧病垂危，膝下无嗣，各大家族暗中磨刀霍霍；而在北方，烽火台一座接一座地熄灭了。旅人们说，有像人一样直立行走的狼，还说灰烬荒原上的黑塔又升起来了。宫廷里没几个人相信。相信的人，已经悄悄拿起了剑。",
+        "main": {
+          "name": "奥德里克·维恩",
+          "personality_traits": ["正直", "认真", "不轻易信任别人"],
+          "goals_and_fears": "想证明出身低微的骑士也能比任何贵族之子更好地守住誓言，并弄清楚为什么他的剑一靠近暗影之王的爪牙就会发光。最怕有一天誓言会要他去做错事。",
+          "speech_style": "说话正式而谨慎；和朋友在一起时直来直去",
+          "appearance": "在铁匠铺练出的宽厚结实身板，一张坦荡的脸，一双沉稳的蓝眼睛；沙棕色短发；蓝色罩袍外套着满是凹痕的钢甲，腰间挂着一把旧长剑。",
+          "race": "人类",
+          "adventurer_rank": "铜级",
+          "faction": "黎明骑士团",
+          "abilities": ["盾墙", "黎明祷言：一道微光，能让同伴镇定下来"],
+          "equipment": ["一把刻着无人能读懂的符文的旧长剑", "一面凹痕累累的鸢形盾", "锁子甲"],
+          "inventory": ["十二枚银币", "一封封印已裂开的骑士册封书"],
+          "location": "奥德米尔王城",
+          "condition": "身体健康"
+        },
+        "mainBackground": "他是铁匠的儿子，因为独自守住一座桥、击退了劫掠者，在战场上被册封为骑士。举荐他的老骑士留给他一把上一场战争中的剑，用布裹着，叮嘱他永远不要在黑暗中拔剑。上个月，他在黑暗中拔出了剑，剑发出了光。",
+        "names": {
+          "male": ["加雷斯", "罗文", "塞隆", "塞德里克", "布拉姆", "卢坎"],
+          "female": ["艾拉拉", "伊索德", "玛伦", "布蕾妮", "莱拉", "瑟拉菲娜"]
+        }
+      },
+      "zh-Hant": {
+        "values": {
+          "races": [
+            "人類：人數最多的種族，統治著河谷諸王國。",
+            "精靈：長壽的森林居民，還記得那場古老的邪惡。",
+            "矮人：北方群山之下的礦工和鐵匠。",
+            "半身人：個子矮小、安靜的農夫，誰也想不到他們會勇敢。"
+          ],
+          "adventurer_ranks": ["銅級", "鐵級", "銀級", "金級", "祕銀級"],
+          "magic_system": "魔法汲取自大地之下流淌的魔力脈絡。每個咒語都要借用施法者自身的體力：小咒語讓人疲憊，強大的咒語能讓法師臥床數日，甚至早生白髮。",
+          "factions": [
+            "奧德米爾王國：古老的人類王國，國王病重垂危，卻沒有繼承人。",
+            "銀木林：最後一片精靈森林，已對外封閉了一百年。",
+            "黎明騎士團：效忠王室的騎士，如今因王位繼承問題分裂。",
+            "冒險者公會：把劍與魔法出租給任何付得起錢的人。"
+          ],
+          "main_character_difficulties": "主角是出身平凡、剛剛受封的騎士，沒有任何派系信任他，宮廷也不欠他什麼；他手中的劍，似乎被捲土重來的黑暗認了出來。"
+        },
+        "background": "三百年來，奧德米爾王國一直守護著精靈與矮人當年戰勝暗影之王換來的和平。如今老國王埃德里克臥病垂危，膝下無嗣，各大家族暗中磨刀霍霍；而在北方，烽火臺一座接一座地熄滅了。旅人們說，有像人一樣直立行走的狼，還說灰燼荒原上的黑塔又升起來了。宮廷裡沒幾個人相信。相信的人，已經悄悄拿起了劍。",
+        "main": {
+          "name": "奧德里克·維恩",
+          "personality_traits": ["正直", "認真", "不輕易信任別人"],
+          "goals_and_fears": "想證明出身低微的騎士也能比任何貴族之子更好地守住誓言，並弄清楚為什麼他的劍一靠近暗影之王的爪牙就會發光。最怕有一天誓言會要他去做錯事。",
+          "speech_style": "說話正式而謹慎；和朋友在一起時直來直往",
+          "appearance": "在鐵匠鋪練出的寬厚結實身板，一張坦蕩的臉，一雙沉穩的藍眼睛；沙棕色短髮；藍色罩袍外套著滿是凹痕的鋼甲，腰間掛著一把舊長劍。",
+          "race": "人類",
+          "adventurer_rank": "銅級",
+          "faction": "黎明騎士團",
+          "abilities": ["盾牆", "黎明禱言：一道微光，能讓同伴鎮定下來"],
+          "equipment": ["一把刻著無人能讀懂的符文的舊長劍", "一面凹痕累累的鳶形盾", "鎖子甲"],
+          "inventory": ["十二枚銀幣", "一封封印已裂開的騎士冊封書"],
+          "location": "奧德米爾王城",
+          "condition": "身體健康"
+        },
+        "mainBackground": "他是鐵匠的兒子，因為獨自守住一座橋、擊退了劫掠者，在戰場上被冊封為騎士。舉薦他的老騎士留給他一把上一場戰爭中的劍，用布裹著，叮囑他永遠不要在黑暗中拔劍。上個月，他在黑暗中拔出了劍，劍發出了光。",
+        "names": {
+          "male": ["加雷斯", "羅文", "塞隆", "塞德里克", "布拉姆", "盧坎"],
+          "female": ["艾拉拉", "伊索德", "瑪倫", "布蕾妮", "萊拉", "瑟拉菲娜"]
+        }
+      }
+    }
+  },
+  {
+    "id": "ash-and-iron",
+    "values": { "tone": ["Dark"], "magic_commonness": "Rare", "world_danger": 5, "character_mortality": "Often", "power_growth": "Slow" },
+    "main": { "gender": "Female", "age": 27, "moral_alignment": 3, "charisma": 5, "class": "Rogue", "magic_affinity": "None" },
+    "text": {
+      "en": {
+        "values": {
+          "races": [
+            "Humans: hard, hungry people in a land that has stopped feeding them.",
+            "Orcs: driven out of the burning south, now selling their strength as mercenaries.",
+            "Dwarves: a dwindling folk who trade iron for grain and trust no one."
+          ],
+          "adventurer_ranks": ["Unproven", "Sworn Blade", "Veteran", "Captain"],
+          "magic_system": "Magic is rare and hated. Every spell costs the caster something that does not come back: a year of life, a memory, the warmth in their hands. Old mages are few, and most of them cannot remember their own names.",
+          "factions": [
+            "The Iron Company: the largest mercenary band, loyal to whoever paid last.",
+            "The Ashen Church: burns witches and buys relics, and preaches that the plague is a punishment.",
+            "The Free City of Vessel: a rich port that hires mercenaries to keep the plague outside its walls."
+          ],
+          "main_character_difficulties": "A sellsword with debts to the wrong people, the main character trusts no one, is wanted by the church for a theft that turned out to be far worse than they knew, and has started to see the plague's sores on the hands of people who should be healthy."
+        },
+        "background": "The plague came with the ash. Ten years ago the mountain in the south split open, the sky went grey for a summer, and the sickness spread along every road. Kingdoms broke into baronies, baronies into villages behind wooden walls. Now the strong sell their swords and the weak pay in whatever they have left. The church burns anyone who uses magic, and yet the only people who survive the plague are the ones who have touched it.",
+        "main": {
+          "name": "Wren Hale",
+          "personality_traits": ["Cynical", "Quick-witted", "Secretly kind"],
+          "goals_and_fears": "Wants to pay off her debt to the Iron Company and buy a quiet life far from the roads. Fears the burning sickness, and fears even more that she is already carrying it.",
+          "speech_style": "Dry, short and mocking; swears often",
+          "appearance": "Lean and hard-faced, with a thin scar across her chin and wary green eyes; cropped dark red hair; a hooded black leather coat, belts of knives and gloves with the fingertips cut off.",
+          "race": "Humans",
+          "adventurer_rank": "Sworn Blade",
+          "faction": "The Iron Company",
+          "abilities": ["Lock picking", "Knife fighting in close quarters", "Reading a liar's face"],
+          "equipment": ["Two long knives", "A boiled-leather coat", "A hooded cloak"],
+          "inventory": ["A small bag of copper", "A stolen church relic she cannot sell"],
+          "location": "A burned waystation on the road to Vessel",
+          "condition": "A half-healed cut on her left arm"
+        },
+        "mainBackground": "Grew up in a village that the plague emptied in one winter. She lived by stealing from the dead, then by guarding the living, then by whatever paid. Three months ago she robbed a church wagon and found a relic that whispers at night. Since then the church has been looking for her, and so has something else.",
+        "names": {
+          "male": ["Doran", "Kell", "Varrick", "Silas", "Mord", "Corwin"],
+          "female": ["Sable", "Ilse", "Rook", "Greta", "Vesna", "Tamsin"]
+        }
+      },
+      "zh-Hans": {
+        "values": {
+          "races": [
+            "人类：在一片不再养活他们的土地上，强硬而饥饿的人们。",
+            "兽人：被赶出燃烧的南方，如今靠出卖力气当佣兵。",
+            "矮人：日渐稀少的种族，用铁换粮，谁也不信。"
+          ],
+          "adventurer_ranks": ["新人", "宣誓之刃", "老兵", "队长"],
+          "magic_system": "魔法稀少，而且遭人憎恨。每个咒语都要让施法者付出一样再也回不来的东西：一年寿命、一段记忆、双手的温度。老法师寥寥无几，大多数已经记不起自己的名字。",
+          "factions": [
+            "铁之佣兵团：最大的佣兵团，谁最后付钱就忠于谁。",
+            "灰烬教会：烧死女巫、收购圣物，宣扬瘟疫是神的惩罚。",
+            "维塞尔自由城：富庶的港口，雇佣兵把瘟疫挡在城墙之外。"
+          ],
+          "main_character_difficulties": "主角是欠了不该欠的人钱的雇佣兵，谁也不信；教会正为一桩盗窃通缉她，那件事远比她当时以为的严重；她还开始在本该健康的人手上看见瘟疫的疮疤。"
+        },
+        "background": "瘟疫是随着灰烬来的。十年前，南方的大山裂开，整整一个夏天天空都是灰的，疾病沿着每一条路蔓延开去。王国碎成了男爵领，男爵领又碎成一座座躲在木墙后的村子。如今强者出卖刀剑，弱者用仅剩的一切付账。教会烧死所有使用魔法的人；可是能从瘟疫中活下来的，偏偏只有那些碰过它的人。",
+        "main": {
+          "name": "雷恩·黑尔",
+          "personality_traits": ["愤世嫉俗", "机智", "暗地里心软"],
+          "goals_and_fears": "想还清欠铁之佣兵团的债，买一份远离大路的平静生活。害怕那种会烧起来的病，更怕自己已经染上了它。",
+          "speech_style": "说话冷淡、简短、爱挖苦人；常爆粗口",
+          "appearance": "身形精瘦，神情冷硬，下巴上一道细疤，一双警惕的绿眼睛；暗红色短发；一件带兜帽的黑色皮外套，身上挂着几条插满小刀的皮带，戴着露指手套。",
+          "race": "人类",
+          "adventurer_rank": "宣誓之刃",
+          "faction": "铁之佣兵团",
+          "abilities": ["开锁", "近身短刀格斗", "看穿说谎者的表情"],
+          "equipment": ["两把长刀", "一件煮硬的皮外套", "一件带兜帽的斗篷"],
+          "inventory": ["一小袋铜币", "一件偷来却卖不掉的教会圣物"],
+          "location": "通往维塞尔路上一座烧毁的驿站",
+          "condition": "左臂有一道半愈合的伤口"
+        },
+        "mainBackground": "她长大的村子在一个冬天里被瘟疫清空了。她先靠偷死人的东西活着，后来替活人看守财物，再后来什么给钱就干什么。三个月前，她抢了一辆教会的马车，找到一件夜里会低语的圣物。从那以后，教会一直在找她——还有别的什么东西也在找她。",
+        "names": {
+          "male": ["多兰", "凯尔", "瓦里克", "赛拉斯", "莫德", "科温"],
+          "female": ["塞布尔", "伊尔莎", "鲁克", "格蕾塔", "维丝娜", "塔姆辛"]
+        }
+      },
+      "zh-Hant": {
+        "values": {
+          "races": [
+            "人類：在一片不再養活他們的土地上，強硬而飢餓的人們。",
+            "獸人：被趕出燃燒的南方，如今靠出賣力氣當傭兵。",
+            "矮人：日漸稀少的種族，用鐵換糧，誰也不信。"
+          ],
+          "adventurer_ranks": ["新人", "宣誓之刃", "老兵", "隊長"],
+          "magic_system": "魔法稀少，而且遭人憎恨。每個咒語都要讓施法者付出一樣再也回不來的東西：一年壽命、一段記憶、雙手的溫度。老法師寥寥無幾，大多數已經記不起自己的名字。",
+          "factions": [
+            "鐵之傭兵團：最大的傭兵團，誰最後付錢就忠於誰。",
+            "灰燼教會：燒死女巫、收購聖物，宣揚瘟疫是神的懲罰。",
+            "維塞爾自由城：富庶的港口，僱傭兵把瘟疫擋在城牆之外。"
+          ],
+          "main_character_difficulties": "主角是欠了不該欠的人錢的傭兵，誰也不信；教會正為一樁盜竊通緝她，那件事遠比她當時以為的嚴重；她還開始在本該健康的人手上看見瘟疫的瘡疤。"
+        },
+        "background": "瘟疫是隨著灰燼來的。十年前，南方的大山裂開，整整一個夏天天空都是灰的，疾病沿著每一條路蔓延開去。王國碎成了男爵領，男爵領又碎成一座座躲在木牆後的村子。如今強者出賣刀劍，弱者用僅剩的一切付帳。教會燒死所有使用魔法的人；可是能從瘟疫中活下來的，偏偏只有那些碰過它的人。",
+        "main": {
+          "name": "雷恩·黑爾",
+          "personality_traits": ["憤世嫉俗", "機智", "暗地裡心軟"],
+          "goals_and_fears": "想還清欠鐵之傭兵團的債，買一份遠離大路的平靜生活。害怕那種會燒起來的病，更怕自己已經染上了它。",
+          "speech_style": "說話冷淡、簡短、愛挖苦人；常爆粗口",
+          "appearance": "身形精瘦，神情冷硬，下巴上一道細疤，一雙警惕的綠眼睛；暗紅色短髮；一件帶兜帽的黑色皮外套，身上掛著幾條插滿小刀的皮帶，戴著露指手套。",
+          "race": "人類",
+          "adventurer_rank": "宣誓之刃",
+          "faction": "鐵之傭兵團",
+          "abilities": ["開鎖", "近身短刀格鬥", "看穿說謊者的表情"],
+          "equipment": ["兩把長刀", "一件煮硬的皮外套", "一件帶兜帽的斗篷"],
+          "inventory": ["一小袋銅幣", "一件偷來卻賣不掉的教會聖物"],
+          "location": "通往維塞爾路上一座燒毀的驛站",
+          "condition": "左臂有一道半癒合的傷口"
+        },
+        "mainBackground": "她長大的村子在一個冬天裡被瘟疫清空了。她先靠偷死人的東西活著，後來替活人看守財物，再後來什麼給錢就幹什麼。三個月前，她搶了一輛教會的馬車，找到一件夜裡會低語的聖物。從那以後，教會一直在找她——還有別的什麼東西也在找她。",
+        "names": {
+          "male": ["多蘭", "凱爾", "瓦里克", "賽拉斯", "莫德", "科溫"],
+          "female": ["塞布爾", "伊爾莎", "魯克", "格蕾塔", "維絲娜", "塔姆辛"]
+        }
+      }
+    }
+  },
+  {
+    "id": "spire-academy",
+    "values": { "tone": ["Humorous", "Hot-blooded"], "magic_commonness": "Common", "world_danger": 2, "character_mortality": "Rarely", "power_growth": "Steady" },
+    "main": { "gender": "Male", "age": 18, "moral_alignment": 2, "charisma": 7, "class": "Mage", "magic_affinity": "Arcane" },
+    "text": {
+      "en": {
+        "values": {
+          "races": [
+            "Humans: most of the city's students, from every corner of the realm.",
+            "Elves: old families of mages who think the academy was theirs first.",
+            "Gnomes: inventors who mix magic with clockwork, to the masters' alarm.",
+            "Tieflings: rare, gifted and distrusted for the horns they were born with."
+          ],
+          "adventurer_ranks": ["Initiate", "Apprentice", "Adept", "Magister", "Archmage"],
+          "magic_system": "Magic is a learned craft of formulas, focus and spoken words, drawn from the aether that fills the air. Anyone can learn small spells; great ones take years of study. Casting beyond one's skill burns the mind, causing headaches, nosebleeds and, at worst, a mind that never quite comes back.",
+          "factions": [
+            "The Spire: the great academy of magic, ruled by a council of seven Archmagi.",
+            "House Valcourt: an old elven mage family that has held a council seat for four hundred years.",
+            "The Clockwork Guild: gnome inventors who want magic taught to everyone, not only the gifted.",
+            "The Silent Wardens: the city watch for mages, who hunt forbidden spells."
+          ],
+          "main_character_difficulties": "A scholarship student from a fishing village, the main character is behind in every class, looked down on by the old families, and the only person who can open the door to the forbidden library, though no one knows that yet."
+        },
+        "background": "In the city of Lumen, magic lights the streets, carries water up the towers and keeps the bread warm in the bakeries. At its heart rises the Spire, the greatest academy of magic in the world, where the children of old mage families study beside scholarship students who have never seen a book of spells. This year the council is divided, a master has disappeared, and something in the sealed library under the Spire has begun to knock.",
+        "main": {
+          "name": "Felix Thorn",
+          "personality_traits": ["Curious", "Stubborn", "Talks too much when nervous"],
+          "goals_and_fears": "Wants to graduate at the top of his year and bring magic back to his village, which cannot afford a healer. Fears being sent home as a failure, and the voice he hears near the library door.",
+          "speech_style": "Fast and eager, full of half-finished thoughts",
+          "appearance": "Thin and gangly, with a quick smile and bright grey eyes; messy black curls; an ink-stained student's robe of deep purple, too short in the sleeves, a satchel of books over one shoulder.",
+          "race": "Humans",
+          "adventurer_rank": "Initiate",
+          "faction": "The Spire",
+          "abilities": ["Light", "Mending small objects", "Reading old runes faster than anyone in his year"],
+          "equipment": ["A second-hand wand of pale ash wood", "Student robes, patched at the elbows"],
+          "inventory": ["Three textbooks he cannot afford to lose", "A brass key that came with his scholarship letter"],
+          "location": "The first-year dormitory of the Spire, in Lumen",
+          "condition": "Healthy, but tired from studying late"
+        },
+        "mainBackground": "A fisherman's son who taught himself to read from the charts in his father's boat. He won the academy's one scholarship for the poor with a spell no examiner had seen before, which he cannot repeat. With the scholarship letter came a brass key, with no note and no sender.",
+        "names": {
+          "male": ["Julian", "Osric", "Tobias", "Emeric", "Lorne", "Caspian"],
+          "female": ["Odette", "Mirabel", "Ivy", "Celestine", "Nell", "Rosalind"]
+        }
+      },
+      "zh-Hans": {
+        "values": {
+          "races": [
+            "人类：城里大多数学生都是人类，来自王国的各个角落。",
+            "精灵：古老的法师世家，认为学院本来就是他们的。",
+            "侏儒：把魔法和发条混在一起的发明家，让导师们头疼不已。",
+            "提夫林：天赋异禀却少见，因为生来带角而受人猜疑。"
+          ],
+          "adventurer_ranks": ["入门者", "学徒", "术士", "魔导师", "大法师"],
+          "magic_system": "魔法是一门要学的技艺：公式、专注和咒文，力量取自充满空气的以太。谁都能学会小咒语；强大的咒语要苦读多年。施展超出自身能力的魔法会灼伤心智：头痛、流鼻血，最糟的是心智再也回不来。",
+          "factions": [
+            "尖塔学院：最伟大的魔法学院，由七位大法师组成的议会统治。",
+            "瓦尔库尔家族：古老的精灵法师世家，在议会里占据席位已有四百年。",
+            "发条公会：侏儒发明家，希望魔法教给所有人，而不只是有天赋的人。",
+            "沉默守望者：专门管法师的城市卫队，追捕禁咒。"
+          ],
+          "main_character_difficulties": "主角是来自渔村的奖学金学生，每门课都跟不上，被古老世家瞧不起；而他是唯一能打开禁书库大门的人——只是现在还没人知道。"
+        },
+        "background": "在卢门城，魔法照亮街道，把水送上高塔，让面包房里的面包一直温热。城市中心矗立着尖塔学院，世界上最伟大的魔法学院；古老法师世家的子女和从没见过咒语书的奖学金学生在这里一起读书。今年，议会四分五裂，一位导师失踪了，而尖塔下那座被封印的书库里，有什么东西开始敲门。",
+        "main": {
+          "name": "菲利克斯·索恩",
+          "personality_traits": ["好奇", "倔强", "一紧张话就特别多"],
+          "goals_and_fears": "想以全年级第一的成绩毕业，把魔法带回请不起治疗师的家乡。害怕被当成失败者送回家，也害怕在书库门口听到的那个声音。",
+          "speech_style": "说话又快又急切，常常想到一半就换话题",
+          "appearance": "又瘦又高，手长脚长，笑得很快，一双明亮的灰眼睛；乱蓬蓬的黑色卷发；一件沾着墨迹的深紫色学徒长袍，袖子短了一截，肩上挎着装满书的布包。",
+          "race": "人类",
+          "adventurer_rank": "入门者",
+          "faction": "尖塔学院",
+          "abilities": ["照明术", "修补小物件", "读古代符文比同年级任何人都快"],
+          "equipment": ["一根二手的浅色白蜡木魔杖", "手肘打了补丁的学生长袍"],
+          "inventory": ["三本丢不起的课本", "一把随奖学金录取信寄来的黄铜钥匙"],
+          "location": "卢门城尖塔学院的一年级宿舍",
+          "condition": "身体健康，但熬夜读书很疲惫"
+        },
+        "mainBackground": "他是渔夫的儿子，靠父亲船上的海图自学认字。他用一个考官们从没见过、他自己也再施展不出来的咒语，赢得了学院唯一一个给穷人的奖学金名额。随录取信一起寄来的，还有一把黄铜钥匙，没有附言，也没有寄件人。",
+        "names": {
+          "male": ["朱利安", "奥斯里克", "托比亚斯", "埃默里克", "洛恩", "卡斯皮安"],
+          "female": ["奥黛特", "米拉贝尔", "艾薇", "塞莱丝汀", "内尔", "罗莎琳"]
+        }
+      },
+      "zh-Hant": {
+        "values": {
+          "races": [
+            "人類：城裡大多數學生都是人類，來自王國的各個角落。",
+            "精靈：古老的法師世家，認為學院本來就是他們的。",
+            "侏儒：把魔法和發條混在一起的發明家，讓導師們頭疼不已。",
+            "提夫林：天賦異稟卻少見，因為生來帶角而受人猜疑。"
+          ],
+          "adventurer_ranks": ["入門者", "學徒", "術士", "魔導師", "大法師"],
+          "magic_system": "魔法是一門要學的技藝：公式、專注和咒文，力量取自充滿空氣的以太。誰都能學會小咒語；強大的咒語要苦讀多年。施展超出自身能力的魔法會灼傷心智：頭痛、流鼻血，最糟的是心智再也回不來。",
+          "factions": [
+            "尖塔學院：最偉大的魔法學院，由七位大法師組成的議會統治。",
+            "瓦爾庫爾家族：古老的精靈法師世家，在議會裡佔據席位已有四百年。",
+            "發條公會：侏儒發明家，希望魔法教給所有人，而不只是有天賦的人。",
+            "沉默守望者：專門管法師的城市衛隊，追捕禁咒。"
+          ],
+          "main_character_difficulties": "主角是來自漁村的獎學金學生，每門課都跟不上，被古老世家瞧不起；而他是唯一能打開禁書庫大門的人——只是現在還沒人知道。"
+        },
+        "background": "在盧門城，魔法照亮街道，把水送上高塔，讓麵包店裡的麵包一直溫熱。城市中心矗立著尖塔學院，世界上最偉大的魔法學院；古老法師世家的子女和從沒見過咒語書的獎學金學生在這裡一起讀書。今年，議會四分五裂，一位導師失蹤了，而尖塔下那座被封印的書庫裡，有什麼東西開始敲門。",
+        "main": {
+          "name": "菲利克斯·索恩",
+          "personality_traits": ["好奇", "倔強", "一緊張話就特別多"],
+          "goals_and_fears": "想以全年級第一的成績畢業，把魔法帶回請不起治療師的家鄉。害怕被當成失敗者送回家，也害怕在書庫門口聽到的那個聲音。",
+          "speech_style": "說話又快又急切，常常想到一半就換話題",
+          "appearance": "又瘦又高，手長腳長，笑得很快，一雙明亮的灰眼睛；亂蓬蓬的黑色捲髮；一件沾著墨跡的深紫色學徒長袍，袖子短了一截，肩上挎著裝滿書的布包。",
+          "race": "人類",
+          "adventurer_rank": "入門者",
+          "faction": "尖塔學院",
+          "abilities": ["照明術", "修補小物件", "讀古代符文比同年級任何人都快"],
+          "equipment": ["一根二手的淺色白蠟木魔杖", "手肘打了補丁的學生長袍"],
+          "inventory": ["三本丟不起的課本", "一把隨獎學金錄取信寄來的黃銅鑰匙"],
+          "location": "盧門城尖塔學院的一年級宿舍",
+          "condition": "身體健康，但熬夜讀書很疲憊"
+        },
+        "mainBackground": "他是漁夫的兒子，靠父親船上的海圖自學認字。他用一個考官們從沒見過、他自己也再施展不出來的咒語，贏得了學院唯一一個給窮人的獎學金名額。隨錄取信一起寄來的，還有一把黃銅鑰匙，沒有附言，也沒有寄件人。",
+        "names": {
+          "male": ["朱利安", "奧斯里克", "托比亞斯", "埃默里克", "洛恩", "卡斯皮安"],
+          "female": ["奧黛特", "米拉貝爾", "艾薇", "塞萊絲汀", "內爾", "羅莎琳"]
+        }
+      }
+    }
+  },
+  {
+    "id": "wildmarch",
+    "values": { "tone": ["Hot-blooded"], "magic_commonness": "Uncommon", "world_danger": 4, "character_mortality": "Sometimes", "power_growth": "Steady" },
+    "main": { "gender": "Female", "age": 24, "moral_alignment": 2, "charisma": 5, "class": "Ranger", "magic_affinity": "Earth" },
+    "text": {
+      "en": {
+        "values": {
+          "races": [
+            "Humans: settlers and fortune-seekers pushing into the frontier.",
+            "Beast-folk: wolf, bear and fox clans who have lived in the Wildmarch since before memory.",
+            "Elves: scattered wanderers who guard the old ruins and say little.",
+            "Dwarves: prospectors chasing rumours of lost mountain halls."
+          ],
+          "adventurer_ranks": ["Stone", "Bronze", "Silver", "Gold", "Star"],
+          "magic_system": "Magic lives in the land itself: in old stones, rivers and the roots of ancient trees. Druids and rangers can ask it for help, but the land always asks for something back, and breaking a promise to it brings storms, blight or worse.",
+          "factions": [
+            "Fort Harrow: the last royal outpost, short of soldiers and long on debts.",
+            "The Pathfinders' Lodge: a guild of scouts and adventurers who map the frontier for coin.",
+            "The Greymane Clan: wolf-folk who allow travellers through their land only on their terms.",
+            "The Hollow Crown Company: treasure hunters who loot the ruins and ask no questions."
+          ],
+          "main_character_difficulties": "A ranger who knows the wilds better than any map, the main character is not trusted by the settlers for her friendship with the beast-folk, nor by the beast-folk for her human blood, and the ruins she was hired to map are waking up."
+        },
+        "background": "Beyond the last royal fort lies the Wildmarch: forests older than kingdoms, rivers no map agrees on, and the ruins of a people who vanished in a single night. Settlers come for land, prospectors for gold, and treasure hunters for what lies under the ruins. The beast-folk clans watch them all. This spring the old stones began to hum, the animals fled east, and the first expedition into the great ruin of Elderhold did not come back.",
+        "main": {
+          "name": "Kestrel Ashby",
+          "personality_traits": ["Patient", "Independent", "Blunt"],
+          "goals_and_fears": "Wants to find her missing father, a Pathfinder who went into Elderhold and never returned, and keep the frontier from turning into a war. Fears towns, crowds and the day she has to choose between the settlers and the clans.",
+          "speech_style": "Quiet and plain; says only what needs saying",
+          "appearance": "Tall and wiry, weathered by the outdoors, with sharp hazel eyes; a long brown braid with a hawk feather tied in it; a green hooded cloak over worn leathers, a longbow on her back.",
+          "race": "Humans",
+          "adventurer_rank": "Silver",
+          "faction": "The Pathfinders' Lodge",
+          "abilities": ["Tracking", "Archery", "Speaking with wolves (they mostly ignore her)"],
+          "equipment": ["A yew longbow", "A hunting knife", "A green cloak for the forest"],
+          "inventory": ["Her father's half-finished map of Elderhold", "Dried meat for a week", "Thirty arrows"],
+          "location": "Fort Harrow, at the edge of the Wildmarch",
+          "condition": "Healthy"
+        },
+        "mainBackground": "Raised on the frontier by a Pathfinder father and taught by a Greymane elder after her mother died. She has guided caravans, hunted the beasts that hunt them and made peace between settlers and clans more than once. When her father's expedition vanished, the Lodge stopped paying for a search. She did not stop looking.",
+        "names": {
+          "male": ["Hawke", "Bren", "Talon", "Ash", "Corran", "Fenwick"],
+          "female": ["Rowena", "Briar", "Linnea", "Sorrel", "Yara", "Wynn"]
+        }
+      },
+      "zh-Hans": {
+        "values": {
+          "races": [
+            "人类：涌向边境的拓荒者和淘金客。",
+            "兽人族：狼、熊、狐各氏族，在荒野边境生活的年头早已无人记得。",
+            "精灵：四处漂泊的守护者，看守着古老的遗迹，沉默寡言。",
+            "矮人：追逐失落山中厅堂传闻的探矿者。"
+          ],
+          "adventurer_ranks": ["石级", "铜级", "银级", "金级", "星级"],
+          "magic_system": "魔法存在于大地本身：古老的石头、河流和远古大树的根里。德鲁伊和游侠可以请求大地相助，但大地总会要回些什么；违背对它的承诺，会招来风暴、枯萎病，甚至更糟的东西。",
+          "factions": [
+            "哈罗堡：最后一座王室前哨，兵力不足，债台高筑。",
+            "开路者会所：由斥候和冒险者组成的公会，拿钱绘制边境地图。",
+            "灰鬃氏族：狼族兽人，只允许旅人按他们的规矩穿过领地。",
+            "空冠探宝团：洗劫遗迹的寻宝人，什么都不问。"
+          ],
+          "main_character_difficulties": "主角是比任何地图都更熟悉荒野的游侠，拓荒者因为她和兽人族交好而不信任她，兽人族又因为她流着人类的血而提防她；而她受雇绘制的那些遗迹，正在苏醒。"
+        },
+        "background": "最后一座王室堡垒之外，就是荒野边境：比王国还古老的森林，没有哪两张地图画得一样的河流，还有一个在一夜之间消失的民族留下的遗迹。拓荒者为土地而来，探矿者为黄金而来，寻宝人为遗迹下埋藏的东西而来。兽人族的各个氏族注视着这一切。今年春天，古老的石头开始嗡嗡作响，野兽纷纷向东逃去，而第一支深入长老堡大遗迹的探险队再也没有回来。",
+        "main": {
+          "name": "凯斯翠·阿什比",
+          "personality_traits": ["有耐心", "独立", "说话直接"],
+          "goals_and_fears": "想找到失踪的父亲——一位进入长老堡后再没回来的开路者，并阻止边境变成战场。害怕城镇和人群，更害怕有一天必须在拓荒者和兽人族之间做出选择。",
+          "speech_style": "安静朴实；只说该说的话",
+          "appearance": "高挑精干，被风吹日晒得有些粗糙，一双锐利的榛色眼睛；棕色长辫上系着一根鹰羽；磨旧的皮甲外披着带兜帽的绿斗篷，背着一张长弓。",
+          "race": "人类",
+          "adventurer_rank": "银级",
+          "faction": "开路者会所",
+          "abilities": ["追踪", "射箭", "和狼说话（狼大多不理她）"],
+          "equipment": ["一把紫杉长弓", "一把猎刀", "一件适合林间穿的绿斗篷"],
+          "inventory": ["父亲没画完的长老堡地图", "够吃一周的肉干", "三十支箭"],
+          "location": "荒野边境边缘的哈罗堡",
+          "condition": "身体健康"
+        },
+        "mainBackground": "她由身为开路者的父亲在边境养大，母亲去世后又跟着一位灰鬃氏族的长老学本事。她给商队当过向导，猎杀过追捕商队的野兽，也不止一次让拓荒者和兽人族化干戈为玉帛。父亲的探险队失踪后，会所不再出钱搜寻。她却没有停下。",
+        "names": {
+          "male": ["霍克", "布伦", "塔隆", "阿什", "科兰", "芬威克"],
+          "female": ["罗威娜", "布莱尔", "林妮娅", "索蕾尔", "雅拉", "温恩"]
+        }
+      },
+      "zh-Hant": {
+        "values": {
+          "races": [
+            "人類：湧向邊境的拓荒者和淘金客。",
+            "獸人族：狼、熊、狐各氏族，在荒野邊境生活的年頭早已無人記得。",
+            "精靈：四處漂泊的守護者，看守著古老的遺跡，沉默寡言。",
+            "矮人：追逐失落山中廳堂傳聞的探礦者。"
+          ],
+          "adventurer_ranks": ["石級", "銅級", "銀級", "金級", "星級"],
+          "magic_system": "魔法存在於大地本身：古老的石頭、河流和遠古大樹的根裡。德魯伊和遊俠可以請求大地相助，但大地總會要回些什麼；違背對它的承諾，會招來風暴、枯萎病，甚至更糟的東西。",
+          "factions": [
+            "哈羅堡：最後一座王室前哨，兵力不足，債臺高築。",
+            "開路者會所：由斥候和冒險者組成的公會，拿錢繪製邊境地圖。",
+            "灰鬃氏族：狼族獸人，只允許旅人按他們的規矩穿過領地。",
+            "空冠探寶團：洗劫遺跡的尋寶人，什麼都不問。"
+          ],
+          "main_character_difficulties": "主角是比任何地圖都更熟悉荒野的遊俠，拓荒者因為她和獸人族交好而不信任她，獸人族又因為她流著人類的血而提防她；而她受僱繪製的那些遺跡，正在甦醒。"
+        },
+        "background": "最後一座王室堡壘之外，就是荒野邊境：比王國還古老的森林，沒有哪兩張地圖畫得一樣的河流，還有一個在一夜之間消失的民族留下的遺跡。拓荒者為土地而來，探礦者為黃金而來，尋寶人為遺跡下埋藏的東西而來。獸人族的各個氏族注視著這一切。今年春天，古老的石頭開始嗡嗡作響，野獸紛紛向東逃去，而第一支深入長老堡大遺跡的探險隊再也沒有回來。",
+        "main": {
+          "name": "凱斯翠·阿什比",
+          "personality_traits": ["有耐心", "獨立", "說話直接"],
+          "goals_and_fears": "想找到失蹤的父親——一位進入長老堡後再沒回來的開路者，並阻止邊境變成戰場。害怕城鎮和人群，更害怕有一天必須在拓荒者和獸人族之間做出選擇。",
+          "speech_style": "安靜樸實；只說該說的話",
+          "appearance": "高挑精幹，被風吹日曬得有些粗糙，一雙銳利的榛色眼睛；棕色長辮上繫著一根鷹羽；磨舊的皮甲外披著帶兜帽的綠斗篷，背著一張長弓。",
+          "race": "人類",
+          "adventurer_rank": "銀級",
+          "faction": "開路者會所",
+          "abilities": ["追蹤", "射箭", "和狼說話（狼大多不理她）"],
+          "equipment": ["一把紫杉長弓", "一把獵刀", "一件適合林間穿的綠斗篷"],
+          "inventory": ["父親沒畫完的長老堡地圖", "夠吃一週的肉乾", "三十支箭"],
+          "location": "荒野邊境邊緣的哈羅堡",
+          "condition": "身體健康"
+        },
+        "mainBackground": "她由身為開路者的父親在邊境養大，母親去世後又跟著一位灰鬃氏族的長老學本事。她給商隊當過嚮導，獵殺過追捕商隊的野獸，也不止一次讓拓荒者和獸人族化干戈為玉帛。父親的探險隊失蹤後，會所不再出錢搜尋。她卻沒有停下。",
+        "names": {
+          "male": ["霍克", "布倫", "塔隆", "阿什", "科蘭", "芬威克"],
+          "female": ["羅威娜", "布萊爾", "林妮婭", "索蕾爾", "雅拉", "溫恩"]
+        }
+      }
+    }
+  }
+]

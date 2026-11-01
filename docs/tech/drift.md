@@ -1,0 +1,18 @@
+# Drift
+
+Last checked against the code: 2026-11-01
+
+Places where the code and the other docs disagree, found while writing these pages. This list does not say which side is right; that is for the code review or the person. Remove a row once either side is fixed.
+
+| Found | Code | The docs say | The code does |
+| --- | --- | --- | --- |
+| 2026-10-15 | [characters.ts](../../src/lib/characters.ts):120 `hasAppeared` | Decision 32: "has appeared in a chapter" is a plain name match, the same approach as characters in the scene, which decision 40 defines as whole words for Latin-script names. | `hasAppeared` uses `text.includes(name)`, so a Latin name also matches inside a longer word ("Ann" in "Annual"), and deleting that character is refused. `charactersInScene` uses `mentions` with whole-word matching. |
+| 2026-10-15 | [devlog.ts](../../src/lib/devlog.ts), `loggedCall` in [novel.ts](../../src/lib/novel.ts):48 | Spec 3: "every block request is saved" in `ai-log/`. Decision 46: "every AI call". | Every call made through `loggedCall` is logged: blocks, regenerated blocks, the epilogue and its versions, and the End Chapter call (kind `end-chapter`). Matches decision 46, wider than spec 3's wording. |
+| 2026-10-15 | [prompt.ts](../../src/lib/prompt.ts):257–264 | Spec 6.1: characters in the scene are those named in the current chapter, the user's direction or the previous chapter's summary (plus the last 3 chapters on Rich). | The regenerate hint is matched too. [testing.md](../testing.md) U-PR already lists "names found in blocks, hint and the previous chapter's summary". |
+| 2026-10-15 | [prompt.ts](../../src/lib/prompt.ts):202 | Spec 6.1: the user's direction is layer 10. Decision 41 says one user message "holding layers 2–9" (written before the used scenes layer was added). | The doc comment on `nextBlock` calls it "Layer 9"; the file's header comment says layers 2–10. |
+| 2026-10-15 | [storyTypes.ts](../../src/lib/storyTypes.ts):7–8, 38; [curatedSets.ts](../../src/lib/curatedSets.ts):34 | Decision 6: "A new genre is one new file." | A new type also needs an import and an entry in `STORY_TYPES`, a sets file in `src/storyTypes/sets/` with an entry in `SETS`, and its texts in both Chinese translation files (see [story-types.md](story-types.md#adding-a-story-type)). The comment in `storyTypes.ts` still says "adding one file and listing it below". |
+| 2026-10-15 | [romance.json](../../src/storyTypes/romance.json):16 | Spec 8.4: "Era and place" is a choice. | Romance also has a text field `era_and_place_details` that spec 8.4 does not list. The curated sets fill it in each language. |
+| 2026-10-15 | [e2e/helpers.ts](../../e2e/helpers.ts) | [SKILL.md](../../.claude/skills/testing/SKILL.md):41 names the helpers `saveKey`, `createStory`, `fillSetting`, `createMainCharacter`. | There is no `fillSetting`; the helper is `saveSetting`. |
+| 2026-10-18 | [draft.ts](../../src/lib/draft.ts):22, [block.ts](../../src/lib/block.ts) | Decision 86: the notes are "saved as `actionNotes` beside `actions` in the draft". | The field is `notes` in both `BlockVersion` and `ParsedBlock`. |
+| 2026-10-18 | `Novel` in [NovelTab.tsx](../../src/pages/NovelTab.tsx) (`onEndStory`) | Decision 88: End Chapter and accepting the epilogue run behind the progress dialog. | End story runs behind it too (title `steps.endStory`), without Stop. |
+| 2026-10-18 | [ai.ts](../../src/lib/ai.ts) `chatBody`, `streamChat` | Spec 6.6: "Block requests ask for the provider's usage report". Decision 87: block, epilogue and End Chapter calls. | Every streamed chat call asks for it, the End Chapter call included, and its tokens are added to the chapter's total. Matches decision 87 and the last point of spec 6.6, wider than its first point. |

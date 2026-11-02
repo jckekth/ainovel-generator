@@ -167,9 +167,18 @@ The installer is one file, written to `src-tauri/target/release/bundle/nsis/AI N
 
 The same command on Linux makes a `.deb` and an AppImage instead (decision 92); each system builds only its own packages.
 
+## Build on GitHub
+
+The easiest way to get the Linux packages without a Linux machine. [.github/workflows/build.yml](.github/workflows/build.yml) builds the `.deb` and AppImage on Ubuntu 22.04 and the setup `.exe` on Windows, after the unit tests pass (decision 155).
+
+- **By hand:** on GitHub, open the repository's **Actions** tab → **Build installers** → **Run workflow**. When the run finishes (the first run can take 15 minutes or more; later runs reuse a cache), download `ai-novel-generator-linux` and `ai-novel-generator-windows` from the run's **Artifacts**. Each download is a zip holding the packages.
+- **For a release:** push a version tag, for example `git tag v0.3.1` and `git push origin v0.3.1` (set the same version in `package.json` and `src-tauri/Cargo.toml` first). The run then also makes a **draft** release on GitHub with the files attached; check them, then upload them to itch.io or publish the release.
+
+The packages are not code-signed, so Windows SmartScreen may warn about the installer.
+
 ## Build for Linux
 
-Tauri cannot build Linux packages from Windows, so build on a Linux machine or in WSL2 (`wsl --install` gives Ubuntu). On Ubuntu 22.04 or newer:
+Tauri cannot build Linux packages from Windows, so build on GitHub (above), on a Linux machine or in WSL2 (`wsl --install` gives Ubuntu). On Ubuntu 22.04 or newer:
 
 ```
 sudo apt update

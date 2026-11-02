@@ -13,7 +13,8 @@ The same app runs on Linux, installed from a `.deb` package or run from an AppIm
 - [x] A key store that cannot be reached gives a plain-words message saying what to install or unlock (decision 93)
 - [x] The app still opens when the key cannot be read at startup
 - [x] Build steps for Linux in `README.md`
-- [ ] Build the `.deb` and AppImage on Linux or in WSL2 *(needs a Linux machine; WSL2 is not installed on the development PC)*
+- [x] A GitHub Actions workflow that builds the `.deb`, the AppImage and the Windows installer (decision 155)
+- [ ] Build the `.deb` and AppImage with that workflow (or on Linux or in WSL2) and download them
 - [ ] Install and run on a Linux desktop (Ubuntu with GNOME is the first target)
 
 ## Acceptance checks
